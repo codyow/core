@@ -1,0 +1,14 @@
+:root {
+	--font-default: 'Montserrat', sans-serif;
+	--font-base-size: 18px;
+	--nav-font-weight: 500;
+	--line-height-default: 1.5;
+	--color-primary: #092033;
+	--color-secondary: #F06449;
+	--color-dark: #333333;
+	--color-light: #ededed;
+	--color-white: #ffffff;
+	--color-warning: #FFBF46;
+	--color-danger: #E13700;
+	--color-success: #3F612D;
+}
