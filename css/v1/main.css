@@ -1,1 +1,16 @@
-@import "variable.css"; 
+
+/* Font Awesome */
+@import "//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "//openwater-themes.s3.amazonaws.com/css/2018-platform.min.css";
+@import "//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css";
+@import "//openwater-themes.s3.us-east-1.amazonaws.com/dev/show-if-content-block/styles/frontend.css";
+@import "//cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css";
+@import "//cdn.plyr.io/3.6.2/plyr.css";
+@import "//unpkg.com/flickity@2/dist/flickity.min.css";
+@import "//cdn.jsdelivr.net/gh/codyow/core/css/main.css";
+
+@import "variables.css";
+
+#chatset{
+    padding: var(--chat-nav-location);
+}

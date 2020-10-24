@@ -1,8 +1,12 @@
 :root {
+	// Presets
+	--chat-nav-location:6;
+	// Font
 	--font-default: 'Montserrat', sans-serif;
 	--font-base-size: 18px;
 	--nav-font-weight: 500;
 	--line-height-default: 1.5;
+	// Colors
 	--color-primary: #092033;
 	--color-secondary: #F06449;
 	--color-dark: #333333;
