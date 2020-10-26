@@ -7,10 +7,10 @@
 @import "//cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css";
 @import "//cdn.plyr.io/3.6.2/plyr.css";
 @import "//unpkg.com/flickity@2/dist/flickity.min.css";
-@import "//cdn.jsdelivr.net/gh/codyow/core/css/main.css";
 
-@import "variables.css";
-
-#chatset{
-    padding: var(--chat-nav-location);
-}
+@import "//cdn.jsdelivr.net/gh/codyow/core/css/variables.css";
+@import "//cdn.jsdelivr.net/gh/codyow/core/css/core.css";
+@import "//cdn.jsdelivr.net/gh/codyow/core/css/heading.css";
+@import "//cdn.jsdelivr.net/gh/codyow/core/css/forms.css";
+@import "//cdn.jsdelivr.net/gh/codyow/core/css/gallery.css";
+@import "//cdn.jsdelivr.net/gh/codyow/core/css/buttons.css";

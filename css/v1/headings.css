@@ -1,0 +1,33 @@
+.heading-styled {
+	padding: 10px !important;
+	background: var(--color-primary) !important;
+	color: var(--color-white) !important;
+	text-align: center !important;
+	font-weight: bold !important;
+	margin: 20px 0 !important;
+	letter-spacing: 1px !important;
+}
+
+h1.heading-styled{
+	font-size: var(--h1-size) !important;
+}
+
+h2.heading-styled{
+	font-size: var(--h2-size) !important;
+}
+
+h3.heading-styled{
+	font-size: var(--h3-size) !important;
+}
+
+h4.heading-styled{
+	font-size: var(--h4-size) !important;
+}
+
+h5.heading-styled{
+	font-size: var(--h5-size) !important;
+}
+
+h6.heading-styled{
+	font-size: var(--h6-size) !important;
+}

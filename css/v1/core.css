@@ -1,0 +1,105 @@
+html, body,p,ul,li{
+	font-size: var(--font-base-size);
+}
+
+#warp{
+    background: var(--background-pattern) center repeat fixed !important;
+}
+
+
+/* Navigation */
+.site-header{
+    background: #fff;
+}
+
+.core, .inner{
+    max-width: 1500px;
+    margin: 30px auto 0 auto;
+    background: #fff;
+}
+
+.core{
+    border: 1px solid #e6e6e6;
+    padding: 30px;
+    -webkit-box-shadow: 7px 10px 35px -13px var(--color-dark);
+    -moz-box-shadow: 7px 10px 35px -13px var(--color-dark);
+    box-shadow: 7px 10px 35px -13px var(--color-dark);
+}
+
+#masthead .inner{
+    margin: 0 auto !important;
+}
+
+.split-nav-right>.inner{
+    align-items: center;
+}
+
+.content-right{
+	margin: 0px !important;
+}
+
+a.chat-pop {
+    background-color: var(--color-primary);
+    color: var(--color-white) !important;
+}
+
+a.chat-pop:hover {
+    color: var(--color-primary) !important;
+    background-color: var(--color-white) !important;
+}
+
+.nav-menu > ul > li:last-child {
+    margin-left:20px;
+}
+
+ul.page-list li, ol.page-list li {
+    font-size: var(--font-base-size) !important;
+    margin: 5px 0 5px 50px !important;
+    padding: 0 !important;
+    list-style-type: disc !important;
+    line-height: 1.5em;
+}
+
+.site-header {
+    padding: 0;
+    box-shadow: 0 0px 5px 2px #999;
+}
+
+.header_banner img {
+   height: 150px;
+   padding: 10px 0;
+   width: auto;
+}
+
+.content-left .menu ul li a {
+	background: none !important;
+	padding: 10px;
+}
+.content-left .menu h4 {
+	padding:10px;
+	background-color: var(--color-primary) !important;
+	color: var(--color-white);
+	font-weight: normal;
+}
+
+.main-navigation ul{
+    margin-top:10px;
+}
+.main-navigation li ul {
+    background: var(--color-primary);
+    padding: 10px 0;
+    -webkit-box-shadow: 7px 10px 35px -13px rgba(51,51,51,1);
+    -moz-box-shadow: 7px 10px 35px -13px rgba(51,51,51,1);
+    box-shadow: 7px 10px 35px -13px rgba(51,51,51,1);
+}
+.main-navigation li ul li a {
+    background: var(--color-primary);
+    min-width: 18rem;
+    color: #fff;
+}
+.site-header li li .dropdown::after {
+    margin: 5px 0 0 0;
+}
+.header_banner img {
+    outline: none !important;
+}

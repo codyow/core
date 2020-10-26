@@ -1,0 +1,82 @@
+/* Link <a> Buttons */
+a.btn-act{
+	display: block;
+	border-radius: 4px;
+	padding: 6px;
+	width: 100%;
+	transition: all 0.5s;
+	text-align: center;
+	cursor: pointer;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+a.btn-primary{
+	background-color: var(--color-primary) !important;
+	border: 2px solid var(--color-primary) !important;
+	color: var(--color-white) !important;
+}
+a.btn-secondary{
+	background-color: var(--color-secondary) !important;
+	border: 2px solid var(--color-secondary) !important;
+	color: var(--color-white) !important;
+}
+a.btn-warning{
+	background-color: var(--color-warning) !important;
+	border: 2px solid var(--color-warning) !important;
+	color: var(--color-white) !important;
+}
+a.btn-danger{
+	background-color: var(--color-danger) !important;
+	border: 2px solid var(--color-danger) !important;
+	color: var(--color-white) !important;
+}
+a.btn-success{
+	background-color: var(--color-success) !important;
+	border: 2px solid var(--color-success) !important;
+	color: var(--color-white) !important;
+}
+a.btn-act:hover {
+	color: var(--color-dark) !important;
+	background-color: var(--color-white) !important;
+}
+/* Buttons */
+button.btn-act {
+	display: block;
+	border-radius: 4px;
+	width: 100%;
+	transition: all 0.5s;
+	text-align: center;
+	cursor: pointer;
+	letter-spacing: 1px;
+	font-weight: bold;
+	line-height: 1em !important;
+}
+button.btn-primary{
+	background-color: var(--color-primary) !important;
+	border: 2px solid var(--color-primary) !important;
+	color: var(--color-white) !important;
+}
+button.btn-secondary{
+	background-color: var(--color-secondary) !important;
+	border: 2px solid var(--color-secondary) !important;
+	color: var(--color-white) !important;
+}
+button.btn-secondary{
+	background-color: var(--color-warning) !important;
+	border: 2px solid var(--color-warning) !important;
+	color: var(--color-white) !important;
+}
+button.btn-secondary{
+	background-color: var(--color-danger) !important;
+	border: 2px solid var(--color-danger) !important;
+	color: var(--color-white) !important;
+}
+button.btn-secondary{
+	background-color: var(--color-success) !important;
+	border: 2px solid var(--color-success) !important;
+	color: var(--color-white) !important;
+}
+button.btn-act:hover {
+	color: var(--color-dark) !important;
+	background-color: var(--color-white) !important;
+}
