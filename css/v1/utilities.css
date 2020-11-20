@@ -1,3 +1,24 @@
+/* Homepage */
+
+.text-center{
+	text-align:center !important;
+}
+.home-content-main{
+	margin-bottom:20px;
+}
+.home-content-video{
+	margin-bottom:20px;
+}
+.home-sponsors{
+	margin-bottom:20px;
+}
+.home-content-main-text{
+	padding:20px;
+	background: var(--color-light);
+}
+
+/* Heading */
+
 .heading-styled {
 	padding: 10px !important;
 	background: var(--color-primary) !important;
@@ -8,26 +29,26 @@
 	letter-spacing: 1px !important;
 }
 
-h1.heading-styled{
+h1{
 	font-size: var(--h1-size) !important;
 }
 
-h2.heading-styled{
+h2{
 	font-size: var(--h2-size) !important;
 }
 
-h3.heading-styled{
+h3{
 	font-size: var(--h3-size) !important;
 }
 
-h4.heading-styled{
+h4{
 	font-size: var(--h4-size) !important;
 }
 
-h5.heading-styled{
+h5{
 	font-size: var(--h5-size) !important;
 }
 
-h6.heading-styled{
+h6{
 	font-size: var(--h6-size) !important;
 }

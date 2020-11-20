@@ -1,0 +1,284 @@
+<div class="row">
+    <div class="col-md-12 col-lg-3">
+        <div style="text-align:center;">
+            <img src="{SubmissionForm.logo.MediaUrl}" style="max-width:90%; padding: 2%; background: #fff;">
+            <h6>{SubmitterProfileForm.companyName}</h6>
+            <section class="show-if-content-block" data-class="" data-placeholder="{SubmissionForm.address}">
+                <div class="show-if-inner">
+                    <hr />
+                    <p style="font-size:12px;">
+                        {SubmissionForm.addressStreet}<br />
+                        {SubmissionForm.addressCity}, {SubmissionForm.addressState} {SubmissionForm.addressPostalCode} {SubmissionForm.addressCountry}
+                    </p>
+                </div>
+            </section>
+            <section class="show-if-content-block" data-class="" data-placeholder="{SubmissionForm.pointOfContact}">
+                <div class="show-if-inner">
+                    <hr />
+                    <p style="font-size:12px;">
+                        {SubmissionForm.pocName} <i>{SubmissionForm.pocTitle}</i><br />
+                        {SubmissionForm.pocEmail} {SubmissionForm.pocPhone}
+                    </p>
+                </div>
+            </section>
+        </div>
+        <a class="btn-act btn-primary" href="{SubmissionForm.website}" target="_blank">View Website</a>
+    </div>
+    <div class="col-xs">
+        <div style="margin-bottom:20px;">
+            <video width="100%" controls>
+                <source src="{SubmissionForm.videoIntroduction.MediaUrl}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        {SubmissionForm.description}
+    </div>
+    <section class="show-if-content-block" data-class="col-md-12 col-lg-3" data-placeholder="{SubmissionForm.chatUrl}">
+        <div class="show-if-inner">
+            <div style="padding:10px; background: #ededed; border-radius: 10px; border: 1px solid var(--color-light); margin-bottom:20px;">
+                <h6 class="heading-styled" style="margin-top: 4px !important;">Chat Schedule</h6>
+                <div class="row">
+                    <div class="col-md-4"><strong>Date</strong></div>
+                    <div class="col-md-4" style="text-align:right;"><strong>Start Time</strong></div>
+                    <div class="col-md-4" style="text-align:right;"><strong>End Time</strong></div>
+                </div>
+                <section class="show-if-content-block" data-class="" data-placeholder="{SubmissionForm.chatSchedule/chatDate#0}">
+                    <div class="show-if-inner">
+                        <div class="row" style="margin: 4px 0;  padding: 10px 0; border-top: 1px solid var(--color-light);">
+                            <div class="col-md-4">{SubmissionForm.chatSchedule/chatDate#0}</div>
+                            <div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatStartTime#0}</div>
+                            <div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatEndTime#0}</div>
+                        </div>
+                    </div>
+                </section>
+                <section class="show-if-content-block" data-class="" data-placeholder="{SubmissionForm.chatSchedule/chatDate#1}">
+                    <div class="show-if-inner">
+                        <div class="row" style="margin: 4px 0;  padding: 4px 0; border-top: 1px solid var(--color-light);">
+                            <div class="col-md-4">{SubmissionForm.chatSchedule/chatDate#1}</div>
+                            <div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatStartTime#1}</div>
+                            <div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatEndTime#1}</div>
+                        </div>
+                    </div>
+                </section>
+                <section class="show-if-content-block" data-class="" data-placeholder="{SubmissionForm.chatSchedule/chatDate#2}">
+                    <div class="show-if-inner">
+                        <div class="row" style="margin: 4px 0;  padding: 4px 0; border-top: 1px solid var(--color-light);">
+                            <div class="col-md-4">{SubmissionForm.chatSchedule/chatDate#2}</div>
+                            <div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatStartTime#2}</div>
+                            <div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatEndTime#2}</div>
+                        </div>
+                    </div>
+                </section>
+                <section class="show-if-content-block" data-class="" data-placeholder="{SubmissionForm.chatSchedule/chatDate#3}">
+                    <div class="show-if-inner">
+                        <div class="row" style="margin: 4px 0;  padding: 4px 0; border-top: 1px solid var(--color-light);">
+                            <div class="col-md-4">{SubmissionForm.chatSchedule/chatDate#3}</div>
+                            <div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatStartTime#3}</div>
+                            <div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatEndTime#3}</div>
+                        </div>
+                    </div>
+                </section>
+                <section class="show-if-content-block" data-class="" data-placeholder="{SubmissionForm.chatSchedule/chatDate#4}">
+                    <div class="show-if-inner">
+                        <div class="row" style="margin: 4px 0;  padding: 4px 0; border-top: 1px solid var(--color-light);">
+                            <div class="col-md-4">{SubmissionForm.chatSchedule/chatDate#4}</div>
+                            <div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatStartTime#4}</div>
+                            <div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatEndTime#4}</div>
+                        </div>
+                    </div>
+                </section>
+                <section class="show-if-content-block" data-class="" data-placeholder="{SubmissionForm.chatSchedule/chatDate#6}">
+                    <div class="show-if-inner">
+                        <div class="row" style="margin: 4px 0;  padding: 4px 0; border-top: 1px solid var(--color-light);">
+                            <div class="col-md-4">{SubmissionForm.chatSchedule/chatDate#6}</div>
+                            <div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatStartTime#6}</div>
+                            <div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatEndTime#6}</div>
+                        </div>
+                    </div>
+                </section>
+                <section class="show-if-content-block" data-class="" data-placeholder="{SubmissionForm.chatSchedule/chatDate#7}">
+                    <div class="show-if-inner">
+                        <div class="row" style="margin: 4px 0;  padding: 4px 0; border-top: 1px solid var(--color-light);">
+                            <div class="col-md-4">{SubmissionForm.chatSchedule/chatDate#7}</div>
+                            <div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatStartTime#7}</div>
+                            <div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatEndTime#7}</div>
+                        </div>
+                    </div>
+                </section>
+                <section class="show-if-content-block" data-class="" data-placeholder="{SubmissionForm.chatSchedule/chatDate#8}">
+                    <div class="show-if-inner">
+                        <div class="row" style="margin: 4px 0;  padding: 4px 0; border-top: 1px solid var(--color-light);">
+                            <div class="col-md-4">{SubmissionForm.chatSchedule/chatDate#8}</div>
+                            <div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatStartTime#8}</div>
+                            <div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatEndTime#8}</div>
+                        </div>
+                    </div>
+                </section>
+                <section class="show-if-content-block" data-class="" data-placeholder="{SubmissionForm.chatSchedule/chatDate#9}">
+                    <div class="show-if-inner">
+                        <div class="row" style="margin: 4px 0;  padding: 4px 0; border-top: 1px solid var(--color-light);">
+                            <div class="col-md-4">{SubmissionForm.chatSchedule/chatDate#9}</div>
+                            <div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatStartTime#9}</div>
+                            <div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatEndTime#9}</div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <a class="btn-act btn-secondary" data-fancybox="" data-src="{SubmissionForm.chatUrl}" data-type="iframe" href="javascript:;">Join chat</a>
+        </div>
+    </section>
+</div>
+<hr />
+<h6 class="heading-styled">Resources</h6>
+<div class="row">
+	<div class="col-md-12 col-lg-4">
+		<section class="show-if-content-block" data-class="" data-placeholder="{SubmissionForm.Resources/resourceTitle#0}">
+		    <div class="show-if-inner">
+		        <div class="resource" style="padding:20px; background: var(--color-light); border-radius:10px;">
+					<section class="show-if-content-block" data-class="col-xs" data-placeholder="{SubmissionForm.Resources/resourceImageCheck#0}">
+						<div class="show-if-inner">
+							<img src="{SubmissionForm.Resources/resourceImage.MediaUrl#0}" style="width:100%;" />
+						</div>
+					</section>
+		            <h5>{SubmissionForm.Resources/resourceTitle#0}</h5>
+					<hr />
+		            {SubmissionForm.Resources/resourceDescription#0}
+					<hr />
+					<a href="{SubmissionForm.Resources/resourceUpload.MediaUrl#0}{SubmissionForm.Resources/resourceURL#0}" target="_blank" class="btn-act btn-primary">View Resource</a>
+		        </div>
+		    </div>
+		</section>
+		<section class="show-if-content-block" data-class="" data-placeholder="{SubmissionForm.Resources/resourceTitle#3}">
+		    <div class="show-if-inner">
+		        <div class="resource" style="padding:20px; background: var(--color-light); border-radius:10px;">
+					<section class="show-if-content-block" data-class="col-xs" data-placeholder="{SubmissionForm.Resources/resourceImageCheck#3}">
+						<div class="show-if-inner">
+							<img src="{SubmissionForm.Resources/resourceImage.MediaUrl#3}" style="width:100%;" />
+						</div>
+					</section>
+		            <h5>{SubmissionForm.Resources/resourceTitle#3}</h5>
+					<hr />
+		            {SubmissionForm.Resources/resourceDescription#3}
+					<hr />
+					<a href="{SubmissionForm.Resources/resourceUpload.MediaUrl#3}{SubmissionForm.Resources/resourceURL#3}" target="_blank" class="btn-act btn-primary">View Resource</a>
+		        </div>
+		    </div>
+		</section>
+		<section class="show-if-content-block" data-class="" data-placeholder="{SubmissionForm.Resources/resourceTitle#6}">
+		    <div class="show-if-inner">
+		        <div class="resource" style="padding:20px; background: var(--color-light); border-radius:10px;">
+					<section class="show-if-content-block" data-class="col-xs" data-placeholder="{SubmissionForm.Resources/resourceImageCheck#6}">
+						<div class="show-if-inner">
+							<img src="{SubmissionForm.Resources/resourceImage.MediaUrl#6}" style="width:100%;" />
+						</div>
+					</section>
+		            <h5>{SubmissionForm.Resources/resourceTitle#3}</h5>
+					<hr />
+		            {SubmissionForm.Resources/resourceDescription#3}
+					<hr />
+					<a href="{SubmissionForm.Resources/resourceUpload.MediaUrl#6}{SubmissionForm.Resources/resourceURL#6}" target="_blank" class="btn-act btn-primary">View Resource</a>
+		        </div>
+		    </div>
+		</section>
+	</div>
+	<div class="col-md-12 col-lg-4">
+		<section class="show-if-content-block" data-class="" data-placeholder="{SubmissionForm.Resources/resourceTitle#1}">
+		    <div class="show-if-inner">
+		        <div class="resource" style="padding:20px; background: var(--color-light); border-radius:10px;">
+					<section class="show-if-content-block" data-class="col-xs" data-placeholder="{SubmissionForm.Resources/resourceImageCheck#1}">
+						<div class="show-if-inner">
+							<img src="{SubmissionForm.Resources/resourceImage.MediaUrl#1}" style="width:100%;" />
+						</div>
+					</section>
+		            <h5>{SubmissionForm.Resources/resourceTitle#1}</h5>
+					<hr />
+		            {SubmissionForm.Resources/resourceDescription#1}
+					<hr />
+					<a href="{SubmissionForm.Resources/resourceUpload.MediaUrl#1}{SubmissionForm.Resources/resourceURL#1}" target="_blank" class="btn-act btn-primary">View Resource</a>
+		        </div>
+		    </div>
+		</section>
+		<section class="show-if-content-block" data-class="" data-placeholder="{SubmissionForm.Resources/resourceTitle#4}">
+		    <div class="show-if-inner">
+		        <div class="resource" style="padding:20px; background: var(--color-light); border-radius:10px;">
+					<section class="show-if-content-block" data-class="col-xs" data-placeholder="{SubmissionForm.Resources/resourceImageCheck#4}">
+						<div class="show-if-inner">
+							<img src="{SubmissionForm.Resources/resourceImage.MediaUrl#4}" style="width:100%;" />
+						</div>
+					</section>
+		            <h5>{SubmissionForm.Resources/resourceTitle#4}</h5>
+					<hr />
+		            {SubmissionForm.Resources/resourceDescription#4}
+					<hr />
+					<a href="{SubmissionForm.Resources/resourceUpload.MediaUrl#4}{SubmissionForm.Resources/resourceURL#4}" target="_blank" class="btn-act btn-primary">View Resource</a>
+		        </div>
+		    </div>
+		</section>
+		<section class="show-if-content-block" data-class="" data-placeholder="{SubmissionForm.Resources/resourceTitle#7}">
+		    <div class="show-if-inner">
+		        <div class="resource" style="padding:20px; background: var(--color-light); border-radius:10px;">
+					<section class="show-if-content-block" data-class="col-xs" data-placeholder="{SubmissionForm.Resources/resourceImageCheck#7}">
+						<div class="show-if-inner">
+							<img src="{SubmissionForm.Resources/resourceImage.MediaUrl#7}" style="width:100%;" />
+						</div>
+					</section>
+		            <h5>{SubmissionForm.Resources/resourceTitle#7}</h5>
+					<hr />
+		            {SubmissionForm.Resources/resourceDescription#7}
+					<hr />
+					<a href="{SubmissionForm.Resources/resourceUpload.MediaUrl#7}{SubmissionForm.Resources/resourceURL#7}" target="_blank" class="btn-act btn-primary">View Resource</a>
+		        </div>
+		    </div>
+		</section>
+	</div>
+	<div class="col-md-12 col-lg-4">
+		<section class="show-if-content-block" data-class="" data-placeholder="{SubmissionForm.Resources/resourceTitle#2}">
+		    <div class="show-if-inner">
+		        <div class="resource" style="padding:20px; background: var(--color-light); border-radius:10px;">
+					<section class="show-if-content-block" data-class="col-xs" data-placeholder="{SubmissionForm.Resources/resourceImageCheck#2}">
+						<div class="show-if-inner">
+							<img src="{SubmissionForm.Resources/resourceImage.MediaUrl#2}" style="width:100%;" />
+						</div>
+					</section>
+		            <h5>{SubmissionForm.Resources/resourceTitle#2}</h5>
+					<hr />
+		            {SubmissionForm.Resources/resourceDescription#2}
+					<hr />
+					<a href="{SubmissionForm.Resources/resourceUpload.MediaUrl#2}{SubmissionForm.Resources/resourceURL#2}" target="_blank" class="btn-act btn-primary">View Resource</a>
+		        </div>
+		    </div>
+		</section>
+		<section class="show-if-content-block" data-class="" data-placeholder="{SubmissionForm.Resources/resourceTitle#5}">
+		    <div class="show-if-inner">
+		        <div class="resource" style="padding:20px; background: var(--color-light); border-radius:10px;">
+					<section class="show-if-content-block" data-class="col-xs" data-placeholder="{SubmissionForm.Resources/resourceImageCheck#5}">
+						<div class="show-if-inner">
+							<img src="{SubmissionForm.Resources/resourceImage.MediaUrl#5}" style="width:100%;" />
+						</div>
+					</section>
+		            <h5>{SubmissionForm.Resources/resourceTitle#5}</h5>
+					<hr />
+		            {SubmissionForm.Resources/resourceDescription#5}
+					<hr />
+					<a href="{SubmissionForm.Resources/resourceUpload.MediaUrl#5}{SubmissionForm.Resources/resourceURL#5}" target="_blank" class="btn-act btn-primary">View Resource</a>
+		        </div>
+		    </div>
+		</section>
+		<section class="show-if-content-block" data-class="" data-placeholder="{SubmissionForm.Resources/resourceTitle#8}">
+		    <div class="show-if-inner">
+		        <div class="resource" style="padding:20px; background: var(--color-light); border-radius:10px;">
+					<section class="show-if-content-block" data-class="col-xs" data-placeholder="{SubmissionForm.Resources/resourceImageCheck#8}">
+						<div class="show-if-inner">
+							<img src="{SubmissionForm.Resources/resourceImage.MediaUrl#8}" style="width:100%;" />
+						</div>
+					</section>
+		            <h5>{SubmissionForm.Resources/resourceTitle#8}</h5>
+					<hr />
+		            {SubmissionForm.Resources/resourceDescription#8}
+					<hr />
+					<a href="{SubmissionForm.Resources/resourceUpload.MediaUrl#8}{SubmissionForm.Resources/resourceURL#8}" target="_blank" class="btn-act btn-primary">View Resource</a>
+		        </div>
+		    </div>
+		</section>
+	</div>
+</div>

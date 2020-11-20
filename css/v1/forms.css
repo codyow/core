@@ -6,3 +6,52 @@ form fieldset > section label, .formBuilder .fields fieldset > section > div lab
     margin-bottom: 10px;
     display: none;
 }
+
+#applicationNameFirstValue {
+    float: left;
+    width: 48%;
+    padding-right: 1% !important;
+    margin-right: 2.5%;
+}
+#applicationNameSecondValue {
+    float: left;
+    width: 48%;
+    clear: none;
+    padding-right: .5%;
+}
+
+input[type=text]{width:100%;}
+
+.title{margin: 10px 0 !important;}
+
+section.remove-margin {
+    margin: 0px !important;
+}
+
+section.one-half {
+    float: left !important;
+    clear: none !important;
+    width: 50% !important;
+    margin-right: 10px;
+}
+
+section.one-third {
+    float: left !important;
+    clear: none !important;
+    width: 33% !important;
+    margin-right: 5px;
+}
+
+section.two-third {
+    float: left !important;
+    clear: none !important;
+    width: 66% !important;
+    margin-right: 5px;
+}
+
+section.one-fourth {
+    float: left !important;
+    clear: none !important;
+    width: 25% !important;
+    margin-right: 20px;
+}

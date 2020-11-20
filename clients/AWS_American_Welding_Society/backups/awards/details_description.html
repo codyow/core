@@ -1,0 +1,121 @@
+<div class="custom-style-block" style="display: none;">
+<div class="title-block">
+<h2>Custom CSS</h2>
+
+<p>double-click to edit, do not edit in source</p></div>
+
+<div class="custom-css-wrapper">
+<style type="text/css">.gallery_info .wbox h3:nth-child(1) {
+    display: none;
+}
+
+.gallery_info .wbox h4:nth-child(2) {
+    display: none;
+}
+
+.gallery_details .wbox h2 {
+    border-bottom: none;
+    padding: 5px 0 5px 0;
+}
+
+.gallery_mainContent {
+    float: right !important;
+    width: 650px !important;
+}
+
+.gallery_info {
+    float: left !important;
+}
+
+.google-preview-widget {
+    margin: 30px 0 !important;
+}
+
+.socialFloat {
+    float: left;
+    width: 25%;
+}
+
+.show-if-inner a {
+    text-decoration: none;
+}
+
+.socialMediaHeader:first-child {
+    display: block !important;
+}
+
+.show-if-content-block {
+    padding: 5px 20px;
+}
+
+/*.fancy-button {
+    line-height: normal !important;
+}*/
+</style>
+</div>
+</div>
+
+<div class="custom-script-block" style="display: none;">
+<div class="title-block">
+<h2>Custom JS</h2>
+
+<p>double-click to edit, do not edit in source</p></div>
+
+<div class="custom-js-wrapper">
+<script type="text/javascript">$.fn.extend({
+    setReadOnly: function(state) {
+        state = state || true;
+        this[0].readOnly = state;
+        this[0].tabIndex = (state) ? -1 : 0;
+        return this;
+    },
+    createObserver: function(callback, config) {
+        config = config || {
+            childList: true
+        };
+        if (!!!window.systemObservers || !Array.isArray(window.systemObservers)) window.systemObservers = [];
+        var newObserver = new MutationObserver(callback);
+        newObserver.observe(this[0], config);
+        window.systemObservers.push(newObserver);
+        return this;
+    },
+    makeGooglePreview: function() {
+        this.each(function() {
+            var $this = $(this);
+            if (!!$this.attr('href')) {
+                var style = [
+                    'margin:' + $this.data('frameMargin'),
+                    'padding:' + $this.data('framePadding'),
+                    'min-height:' + $this.data('frameHeight'),
+                    'width:' + $this.data('frameWidth'),
+                    'max-width:' + $this.data('frameMaxWidth'),
+                ];
+                var url = 'https://docs.google.com/gview?url=' + encodeURIComponent($this.attr('href')) + '&embedded=true';
+                var html = '<iframe src=' + url + ' style="display: block;' + style.join(';') + '"></iframe>';
+                $this.before(html);
+                return $this;
+            } else {
+                $this.parents('.google-preview-widget').hide();
+                return $this;
+            }
+        });
+    },
+});
+$(window).load(function() {
+    $('a.google-preview-link').makeGooglePreview();
+});
+
+$(document).ready(function(){$("#slider").html('<iframe src="https://themes.secure-platform.com/ViewerJS/#{SubmissionForm.pdfFileUpload1.MediaUrl}" width="640" height="600" allowfullscreen webkitallowfullscreen></iframe>');});</script>
+</div>
+</div>
+
+<p><img src="{SubmissionForm.image1.MediaUrl}" style="max-width:300px" /></p>
+
+<h2>{SubmissionForm.title}</h2>
+
+<p><strong>{SubmissionForm.organizationTagline}</strong></p>
+<p>{SubmissionForm.organizationDescription}</p>
+
+<section class="show-if-content-block" data-class="" data-placeholder="{SubmissionForm.scheduleABookingUrl}">
+<div class="show-if-inner"><p><a class="btn fancy-button" href="{SubmissionForm.scheduleABookingUrl}" target="_blank">Schedule a call</a></p></div>
+</section>

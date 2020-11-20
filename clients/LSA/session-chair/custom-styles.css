@@ -1,0 +1,37 @@
+#session h4:first-of-type{display:none;}
+.resetRadioListSelectedValues{display:none;}
+.full-view{display:none;}
+#applicationListSection thead{display:none;}
+#applicationListSection tbody tr td:nth-child(2){display:none;}
+#applicationListSection tbody tr td:nth-child(3){display:none;}
+#applicationListSection  .remove-button{display:none;}
+#sessionItemTable thead{display:none;}
+#sessionItemTable tbody tr td:first-child{display:none;}
+#sessionItemTable tbody tr td:nth-child(2){display:none;}
+#sessionItemTable tbody tr td:nth-child(4){display:none;}
+#sessionItemTable .dataEdit{display:none !important;}
+#sessionItemTable .action{display:none !important;}
+#sessionItemTable .assign-button{display:none;}
+#sessionItemTable .flag-button{display:none;}
+.ui-tabs .ui-tabs-panel {
+    border: none;
+    background: none;
+    padding: 0 !important;
+}
+.dataEdit{display:none;}
+table tbody tr:nth-child(odd) td, table tbody tr:nth-child(odd) th {
+    background-color: transparent !important;
+}
+a.flag {
+    color: #fff !important;
+}
+a.flag:hover {
+    color:  var(--primary-color) !important;
+}
+table tbody tr td:hover, table tbody tr th:hover {
+    background-color:  transparent !important;
+}
+
+#sessionItemSection > div:first-of-type{
+display:none !important;
+}
