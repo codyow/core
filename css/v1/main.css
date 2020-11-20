@@ -8,8 +8,8 @@
 @import "//cdn.plyr.io/3.6.2/plyr.css";
 @import "//unpkg.com/flickity@2/dist/flickity.min.css";
 
-@import "https://openwater-public.s3.amazonaws.com/sonar-uploads%2FcuyUUagST254tM7JCDfA_core.css";
-@import "https://openwater-public.s3.amazonaws.com/sonar-uploads%2Fnt8kaTxbS3S6XXk5GRWk_headings.css";
-@import "https://openwater-public.s3.amazonaws.com/sonar-uploads%2FiGvCyTf0SWialD1h1lbV_forms.css";
-@import "https://openwater-public.s3.amazonaws.com/sonar-uploads%2FMfciF0X0T6KU0ifVL44P_gallery.css";
-@import "https://openwater-public.s3.amazonaws.com/sonar-uploads%2FYqPFqSsRbOZHWPGb4JDG_buttons.css";
+@import "//cdn.jsdelivr.net/gh/codyow/core@master/css/v1/core.css";
+@import "//cdn.jsdelivr.net/gh/codyow/core@master/css/v1/utilities.css";
+@import "//cdn.jsdelivr.net/gh/codyow/core@master/css/v1/forms.css";
+@import "//cdn.jsdelivr.net/gh/codyow/core@master/css/v1/gallery.css";
+@import "//cdn.jsdelivr.net/gh/codyow/core@master/css/v1/buttons.css";
