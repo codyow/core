@@ -1,96 +1,75 @@
 <div class="row">
-    <div class="col-md-12 col-lg-8">
-        <div class="openclass">{SubmissionForm.sessionShortDescription}</div>
-    </div>
-    <div class="col-md-12 col-lg-4">
-        <p><a class="btn-act btn-success" href="{ApplicationGalleryDetailsUrl}">View Details</a></p>
-        <p class="data-check" data-test="{SubmissionForm.chat}"><a class="btn-act btn-secondary" data-fancybox="" data-src="{SubmissionForm.chat}" data-type="iframe" href="javascript:;">Join Chat</a></p>
-    </div>
+	<div class="col-md-12 col-lg-9">
+		<div class="bg-pad">{SubmissionForm.sessionShortDescription}</div>
+	</div>
+	<div class="col-md-12 col-lg-3">
+		<p><a class="btn-act btn-success" href="{ApplicationGalleryDetailsUrl}">View Details</a></p>
+		<p class="data-check" data-test="{SubmissionForm.chat}"><a class="btn-act btn-secondary" data-fancybox="" data-src="{SubmissionForm.chat}" data-type="iframe" href="javascript:;">Join Chat</a></p>
+	</div>
 </div>
-<div class="row data-check" style="margin: 0 20px;" data-test="{SubmissionForm.galleryShowModerator}">
-	<hr />
-    <div class="col-md-12 col-lg-3">
-        <h6>Moderator</h6>
-        <div><strong>{SubmissionForm.moderatorName}</strong></div>
-        <div class="data-check" data-test="{SubmissionForm.moderatorTitle}"><em>{SubmissionForm.moderatorTitle}</em></div>
-        <div class="data-check" data-test="{SubmissionForm.moderatorOrganization}">{SubmissionForm.moderatorOrganization}</div>
-    </div>
+<hr class="data-check" data-test="{SubmissionForm.galleryShowModerator}" />
+<div class="row data-check" data-test="{SubmissionForm.galleryShowModerator}" style="margin: 20px;">
+	<div class="col-md-12 col-lg-3">
+		<h6>Moderator</h6>
+		<div><strong>{SubmissionForm.moderatorFirstName} {SubmissionForm.moderatorLastName}</strong></div>
+		<div class="data-check" data-test="{SubmissionForm.moderatorTitle}"><em>{SubmissionForm.moderatorTitle}</em></div>
+		<div class="data-check" data-test="{SubmissionForm.moderatorOrganization}">{SubmissionForm.moderatorOrganization}</div>
+	</div>
 </div>
-<div class="row data-check" style="margin: 0 20px;" data-test="{SubmissionForm.galleryShowAuthors}">
-	<hr />
-    <div class="col-md-12 col-lg-3 data-check" data-test="{SubmissionForm.authorSimple/authorSimpleFirstName#0}{SubmissionForm.advAuthors/authorAdvFirstName#0}">
-        <h6>Author</h6>
-        <div><strong>{SubmissionForm.authorSimple/authorSimpleFirstName#0}{SubmissionForm.advAuthors/authorAdvFirstName#0} {SubmissionForm.authorSimple/authorSimpleLastName#0}{SubmissionForm.advAuthors/authorAdvLastName#0}</strong></div>
-    </div>
-    <div class="col-md-12 col-lg-3 data-check" data-test="{SubmissionForm.authorSimple/authorSimpleFirstName#1}{SubmissionForm.advAuthors/authorAdvFirstName#1}">
-        <h6>Author</h6>
-        <div><strong>{SubmissionForm.authorSimple/authorSimpleFirstName#1}{SubmissionForm.advAuthors/authorAdvFirstName#1} {SubmissionForm.authorSimple/authorSimpleLastName#1}{SubmissionForm.advAuthors/authorAdvLastName#1}</strong></div>
-    </div>
-    <div class="col-md-12 col-lg-3 data-check" data-test="{SubmissionForm.authorSimple/authorSimpleFirstName#2}{SubmissionForm.advAuthors/authorAdvFirstName#2}">
-        <h6>Author</h6>
-        <div><strong>{SubmissionForm.authorSimple/authorSimpleFirstName#2}{SubmissionForm.advAuthors/authorAdvFirstName#2} {SubmissionForm.authorSimple/authorSimpleLastName#2}{SubmissionForm.advAuthors/authorAdvLastName#2}</strong></div>
-    </div>
-    <div class="col-md-12 col-lg-3 data-check" data-test="{SubmissionForm.authorSimple/authorSimpleFirstName#3}{SubmissionForm.advAuthors/authorAdvFirstName#3}">
-        <h6>Author</h6>
-        <div><strong>{SubmissionForm.authorSimple/authorSimpleFirstName#3}{SubmissionForm.advAuthors/authorAdvFirstName#3} {SubmissionForm.authorSimple/authorSimpleLastName#3}{SubmissionForm.advAuthors/authorAdvLastName#3}</strong></div>
-    </div>
-    <div class="col-md-12 col-lg-3 data-check" data-test="{SubmissionForm.authorSimple/authorSimpleFirstName#4}{SubmissionForm.advAuthors/authorAdvFirstName#4}">
-        <h6>Author</h6>
-        <div><strong>{SubmissionForm.authorSimple/authorSimpleFirstName#4}{SubmissionForm.advAuthors/authorAdvFirstName#4} {SubmissionForm.authorSimple/authorSimpleLastName#4}{SubmissionForm.advAuthors/authorAdvLastName#4}</strong></div>
-    </div>
-    <div class="col-md-12 col-lg-3 data-check" data-test="{SubmissionForm.authorSimple/authorSimpleFirstName#5}{SubmissionForm.advAuthors/authorAdvFirstName#5}">
-        <h6>Author</h6>
-        <div><strong>{SubmissionForm.authorSimple/authorSimpleFirstName#5}{SubmissionForm.advAuthors/authorAdvFirstName#5} {SubmissionForm.authorSimple/authorSimpleLastName#5}{SubmissionForm.advAuthors/authorAdvLastName#5}</strong></div>
-    </div>
-    <div class="col-md-12 col-lg-3 data-check" data-test="{SubmissionForm.authorSimple/authorSimpleFirstName#6}{SubmissionForm.advAuthors/authorAdvFirstName#6}">
-        <h6>Author</h6>
-        <div><strong>{SubmissionForm.authorSimple/authorSimpleFirstName#6}{SubmissionForm.advAuthors/authorAdvFirstName#6} {SubmissionForm.authorSimple/authorSimpleLastName#6}{SubmissionForm.advAuthors/authorAdvLastName#6}</strong></div>
-    </div>
-    <div class="col-md-12 col-lg-3 data-check" data-test="{SubmissionForm.authorSimple/authorSimpleFirstName#7}{SubmissionForm.advAuthors/authorAdvFirstName#7}">
-        <h6>Author</h6>
-        <div><strong>{SubmissionForm.authorSimple/authorSimpleFirstName#7}{SubmissionForm.advAuthors/authorAdvFirstName#7} {SubmissionForm.authorSimple/authorSimpleLastName#7}{SubmissionForm.advAuthors/authorAdvLastName#7}</strong></div>
-    </div>
-    <div class="col-md-12 col-lg-3 data-check" data-test="{SubmissionForm.authorSimple/authorSimpleFirstName#8}{SubmissionForm.advAuthors/authorAdvFirstName#8}">
-        <h6>Author</h6>
-        <div><strong>{SubmissionForm.authorSimple/authorSimpleFirstName#8}{SubmissionForm.advAuthors/authorAdvFirstName#8} {SubmissionForm.authorSimple/authorSimpleLastName#8}{SubmissionForm.advAuthors/authorAdvLastName#8}</strong></div>
-    </div>
-</div>
-<div class="row data-check" style="margin: 0 20px;" data-test="{SubmissionForm.galleryShowSpeakers}">
-	<hr />
-	<div class="col-md-12 col-lg-3 data-check" data-test="{SubmissionForm.speakers/speakerName#0}">
-        <h6>Speaker</h6>
-        <div><strong>{SubmissionForm.speakers/speakerName#0}</strong></div>
-    </div>
-	<div class="col-md-12 col-lg-3 data-check" data-test="{SubmissionForm.speakers/speakerName#1}">
-        <h6>Speaker</h6>
-        <div><strong>{SubmissionForm.speakers/speakerName#1}</strong></div>
-    </div>
-	<div class="col-md-12 col-lg-3 data-check" data-test="{SubmissionForm.speakers/speakerName#2}">
-        <h6>Speaker</h6>
-        <div><strong>{SubmissionForm.speakers/speakerName#2}</strong></div>
-    </div>
-	<div class="col-md-12 col-lg-3 data-check" data-test="{SubmissionForm.speakers/speakerName#3}">
-        <h6>Speaker</h6>
-        <div><strong>{SubmissionForm.speakers/speakerName#3}</strong></div>
-    </div>
-	<div class="col-md-12 col-lg-3 data-check" data-test="{SubmissionForm.speakers/speakerName#4}">
-        <h6>Speaker</h6>
-        <div><strong>{SubmissionForm.speakers/speakerName#4}</strong></div>
-    </div>
-	<div class="col-md-12 col-lg-3 data-check" data-test="{SubmissionForm.speakers/speakerName#5}">
-        <h6>Speaker</h6>
-        <div><strong>{SubmissionForm.speakers/speakerName#5}</strong></div>
-    </div>
-	<div class="col-md-12 col-lg-3 data-check" data-test="{SubmissionForm.speakers/speakerName#6}">
-        <h6>Speaker</h6>
-        <div><strong>{SubmissionForm.speakers/speakerName#6}</strong></div>
-    </div>
-	<div class="col-md-12 col-lg-3 data-check" data-test="{SubmissionForm.speakers/speakerName#7}">
-        <h6>Speaker</h6>
-        <div><strong>{SubmissionForm.speakers/speakerName#7}</strong></div>
-    </div>
-	<div class="col-md-12 col-lg-3 data-check" data-test="{SubmissionForm.speakers/speakerName#8}">
-        <h6>Speaker</h6>
-        <div><strong>{SubmissionForm.speakers/speakerName#8}</strong></div>
-    </div>
+<hr class="data-check" data-test="{SubmissionForm.galleryShowAuthors}" />
+<div class="row data-check" data-test="{SubmissionForm.galleryShowAuthors}" style="margin:20px;">
+	<div class="col-md-12 col-lg-3 data-check" data-test="{SubmissionForm.authors/authorFirstName#0}">
+		<h6>Author</h6>
+		<div>
+			<strong>{SubmissionForm.authors/authorFirstName#0} {SubmissionForm.authors/authorLastName#0}</strong>
+		</div>
+	</div>
+	<div class="col-md-12 col-lg-3 data-check" data-test="{SubmissionForm.authors/authorFirstName#1}">
+		<h6>Author</h6>
+		<div>
+			<strong>{SubmissionForm.authors/authorFirstName#1} {SubmissionForm.authors/authorLastName#1}</strong>
+		</div>
+	</div>
+	<div class="col-md-12 col-lg-3 data-check" data-test="{SubmissionForm.authors/authorFirstName#2}">
+		<h6>Author</h6>
+		<div>
+			<strong>{SubmissionForm.authors/authorFirstName#2} {SubmissionForm.authors/authorLastName#2}</strong>
+		</div>
+	</div>
+	<div class="col-md-12 col-lg-3 data-check" data-test="{SubmissionForm.authors/authorFirstName#3}">
+		<h6>Author</h6>
+		<div>
+			<strong>{SubmissionForm.authors/authorFirstName#3} {SubmissionForm.authors/authorLastName#3}</strong>
+		</div>
+	</div>
+	<div class="col-md-12 col-lg-3 data-check" data-test="{SubmissionForm.authors/authorFirstName#4}">
+		<h6>Author</h6>
+		<div>
+			<strong>{SubmissionForm.authors/authorFirstName#4} {SubmissionForm.authors/authorLastName#4}</strong>
+		</div>
+	</div>
+	<div class="col-md-12 col-lg-3 data-check" data-test="{SubmissionForm.authors/authorFirstName#5}">
+		<h6>Author</h6>
+		<div>
+			<strong>{SubmissionForm.authors/authorFirstName#5} {SubmissionForm.authors/authorLastName#5}</strong>
+		</div>
+	</div>
+	<div class="col-md-12 col-lg-3 data-check" data-test="{SubmissionForm.authors/authorFirstName#6}">
+		<h6>Author</h6>
+		<div>
+			<strong>{SubmissionForm.authors/authorFirstName#6} {SubmissionForm.authors/authorLastName#6}</strong>
+		</div>
+	</div>
+	<div class="col-md-12 col-lg-3 data-check" data-test="{SubmissionForm.authors/authorFirstName#7}">
+		<h6>Author</h6>
+		<div>
+			<strong>{SubmissionForm.authors/authorFirstName#7} {SubmissionForm.authors/authorLastName#7}</strong>
+		</div>
+	</div>
+	<div class="col-md-12 col-lg-3 data-check" data-test="{SubmissionForm.authors/authorFirstName#8}">
+		<h6>Author</h6>
+		<div>
+			<strong>{SubmissionForm.authors/authorFirstName#8} {SubmissionForm.authors/authorLastName#8}</strong>
+		</div>
+	</div>
 </div>

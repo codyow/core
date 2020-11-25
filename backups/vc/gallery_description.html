@@ -1,0 +1,123 @@
+<div class="custom-style-block" style="display: none;">
+<div class="title-block">
+<h2>Custom CSS</h2>
+
+<p>double-click to edit, do not edit in source</p></div>
+
+<div class="custom-css-wrapper">
+<style type="text/css">.wbox {
+    border: none;
+}
+
+.gallery_mainContent {
+    width: 70%;
+}
+
+.gallery_info {
+    width: 28%;
+    border-left: 1px solid var(--color-light);
+    margin-left: 1%;
+    padding-left: 1%;
+}
+
+#applicationJudgementDescription h4:first-of-type {
+    display: none;
+}
+
+.padded-display {
+    margin-top: 30px;
+    padding: 20px;
+    background: var(--color-light);
+}
+
+.btn_virtual_conference {
+    margin-bottom: 20px;
+}
+
+#applicationJudgementDescription>h3:first-of-type {
+    display: none;
+}
+
+hr {
+    margin: 10px 0 !important;
+}
+
+.gallery_details .wbox .col-lg-4 {
+    padding: 1%;
+}
+
+.speaker-card {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid var(--color-light);
+    border-radius: 6px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.speaker-bio {
+    padding: 20px;
+    background: #ededed;
+    margin-right: 2%;
+    border-radius: 6px;
+}
+
+.author-card {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid var(--color-light);
+    border-radius: 6px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.author-bio {
+    padding: 20px;
+    background: #ededed;
+    margin-right: 2%;
+    border-radius: 6px;
+}
+</style>
+</div>
+</div>
+
+<div class="custom-script-block" style="display: none;">
+<div class="title-block">
+<h2>Custom JS</h2>
+
+<p>double-click to edit, do not edit in source</p></div>
+
+<div class="custom-js-wrapper">
+<script type="text/javascript">$(".virtualConference").first().addClass("btn-act btn-primary");
+$(".btn_virtual_conference").last().addClass("btn-act btn-success");</script>
+</div>
+</div>
+
+<div class="data-check" data-test="{SubmissionForm.moderatorFirstName}" style="text-align:center;">
+	<hr />
+	<h6 style="margin-top:0px !important; text-align:center; color: var(--color-primary); margin-bottom:10px;">Session Moderator</h6>
+	<div class="data-check" data-test="{SubmissionForm.moderatorHeadshotUpload.MediaUrl}{SubmissionForm.moderatorHeadshotURL}" style="background: url({SubmissionForm.moderatorHeadshotUpload.MediaUrl}{SubmissionForm.moderatorHeadshotURL}) center; background-size:contain; margin: 0 auto; width:100px; height:100px; border-radius:50%; margin-bottom:20px;">&nbsp;</div>
+	<h5>{SubmissionForm.moderatorFirstName} {SubmissionForm.moderatorLastName}</h5>
+	<p style="margin:0;">{SubmissionForm.moderatorEmail}</p>
+	<p class="data-check" data-test="{SubmissionForm.authors/authorTitle#1}"><span class="data-check" data-test="{SubmissionForm.authors/authorTitle#1}">{SubmissionForm.moderatorTitle}</span> | <span class="data-check" data-test="{SubmissionForm.authors/authorOrganization#1}">{SubmissionForm.moderatorOrganization}</span></p>
+	<div class="data-check" data-test="{SubmissionForm.authors/authorBio#1}" style="padding:30px; margin-top:10px; background: var(--color-light);">
+		{SubmissionForm.moderatorBio}
+	</div>
+</div>
+
+<div class="data-check" data-test="{SubmissionForm.chat}">
+	<hr />
+	<h6 style="margin-top:0px !important; text-align:center; color: var(--color-primary); margin-bottom:10px;">Join the Conversation</h6>
+	<p><a class="btn-act btn-secondary" data-fancybox="" data-src="{SubmissionForm.chat}" data-type="iframe" href="javascript:;">Launch Chat</a></p>
+</div>
+<hr class="data-check" data-test="{SubmissionForm.handoutOne.MediaUrl}" />
+<h6 class="data-check" data-test="{SubmissionForm.handoutOne.MediaUrl}" style="margin-top:0px !important; text-align:center; color: var(--color-primary); margin-bottom:10px;">Handouts</h6>
+<p class="data-check" data-test="{SubmissionForm.handoutOne.MediaUrl}"><a class="btn-act btn-success" data-fancybox="handouts" data-src="{SubmissionForm.handoutOne.MediaUrl}" data-type="iframe" href="javascript:;">View Handout One</a></p>
+<p class="data-check" data-test="{SubmissionForm.handoutTwo.MediaUrl}"><a class="btn-act btn-success" data-fancybox="handouts" data-src="{SubmissionForm.handoutTwo.MediaUrl}" data-type="iframe" href="javascript:;">View Handout Two</a></p>
+<p class="data-check" data-test="{SubmissionForm.handoutTwo.MediaUrl}"><a class="btn-act btn-success" data-fancybox="handouts" data-src="{SubmissionForm.handoutThree.MediaUrl}" data-type="iframe" href="javascript:;">View Handout Two</a></p>
+<hr class="data-check" data-test="{SubmissionForm.presentationVideo.MediaUrl}" />
+<h6 class="data-check" data-test="{SubmissionForm.presentationVideo.MediaUrl}" style="margin-top:0px !important; text-align:center; color: var(--color-primary); margin-bottom:10px;">Videos</h6>
+<p class="data-check" data-test="{SubmissionForm.presentationVideo.MediaUrl}"><a class="btn-act btn-success" data-fancybox="videos" data-src="{SubmissionForm.presentationVideo.MediaUrl}" data-type="iframe" href="javascript:;">Watch the Pre-Recorded Video</a></p>
+<p class="data-check" data-test="{SubmissionForm.zoomVideo.MediaUrl}"><a class="btn-act btn-success" data-fancybox="videos" data-src="{SubmissionForm.zoomVideo.MediaUrl}" data-type="iframe" href="javascript:;">Watch the Session Recording</a></p>
+<hr class="data-check" data-test="{SubmissionForm.sponsorLogo.MediaUrl}" />
+<div class="data-check" data-test="{SubmissionForm.sponsorLogo.MediaUrl}">
+<h6 style="margin-top:0px !important; text-align:center; color: var(--color-primary); margin-bottom:10px;">Session Sponsor</h6>
+<p><a href="{SubmissionForm.sponsorLink}" target="_blank"><img src="{SubmissionForm.sponsorLogo.MediaUrl}" style="background:var(--color-white); padding:10px; width:100%" /></a></p></div>

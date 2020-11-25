@@ -8,7 +8,6 @@ a.btn-act{
 	text-align: center;
 	cursor: pointer;
 	letter-spacing: 1px;
-	font-weight: bold;
 }
 a.btn-primary{
 	background-color: var(--color-primary) !important;
@@ -48,7 +47,6 @@ button.btn-act {
 	text-align: center;
 	cursor: pointer;
 	letter-spacing: 1px;
-	font-weight: bold;
 	line-height: 1em !important;
 }
 button.btn-primary{
