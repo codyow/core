@@ -1,0 +1,86 @@
+<div class="row">
+	<div class="col-md-12 col-lg-4">
+		<div style="text-align:center;">
+			<img src="{SubmissionForm.logo.MediaUrl}" style="background:#ffffff; max-width:90%; padding:2%" />
+			<h6>{SubmitterProfileForm.companyName}</h6>
+			<p style="font-size:12px;">{SubmissionForm.addressCity}, {SubmissionForm.addressState} {SubmissionForm.addressCountry}</p>
+		</div>
+	</div>
+	<div class="col-xs">
+		<h5 style="text-align:center; margin-bottom: 10px;">Introduction</h5>
+		<p>{SubmissionForm.introduction}</p>
+	</div>
+	<div class="col-md-12 col-lg-4 data-check" data-test="{SubmissionForm.chatSchedule/chatDate#0}">
+		<h5 style="text-align:center; margin-bottom: 10px;">Chat Schedule</h5>
+		<div class="chat-schedule-box">
+			<div class="row" style="padding: 0 10px;">
+				<div class="col-md-4" style="padding-left:14px;"><strong>Date</strong></div>
+				<div class="col-md-4" style="text-align:right;"><strong>Start Time</strong></div>
+				<div class="col-md-4" style="text-align:right;"><strong>End Time</strong></div>
+			</div>
+			<div class="row chat-schedule data-check chat-schedule" data-test="{SubmissionForm.chatSchedule/chatDate#0}">
+				<div class="col-md-4">{SubmissionForm.chatSchedule/chatDate#0}</div>
+				<div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatStartTime#0}</div>
+				<div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatEndTime#0}</div>
+			</div>
+			<div class="row chat-schedule data-check chat-schedule" data-test="{SubmissionForm.chatSchedule/chatDate#1}">
+				<div class="col-md-4">{SubmissionForm.chatSchedule/chatDate#1}</div>
+				<div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatStartTime#1}</div>
+				<div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatEndTime#1}</div>
+			</div>
+			<div class="row chat-schedule data-check chat-schedule" data-test="{SubmissionForm.chatSchedule/chatDate#2}">
+				<div class="col-md-4">{SubmissionForm.chatSchedule/chatDate#2}</div>
+				<div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatStartTime#2}</div>
+				<div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatEndTime#2}</div>
+			</div>
+			<div class="row chat-schedule data-check chat-schedule" data-test="{SubmissionForm.chatSchedule/chatDate#3}">
+				<div class="col-md-4">{SubmissionForm.chatSchedule/chatDate#3}</div>
+				<div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatStartTime#3}</div>
+				<div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatEndTime#3}</div>
+			</div>
+			<div class="row chat-schedule data-check chat-schedule" data-test="{SubmissionForm.chatSchedule/chatDate#4}">
+				<div class="col-md-4">{SubmissionForm.chatSchedule/chatDate#4}</div>
+				<div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatStartTime#4}</div>
+				<div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatEndTime#4}</div>
+			</div>
+			<div class="row chat-schedule data-check chat-schedule" data-test="{SubmissionForm.chatSchedule/chatDate#5}">
+				<div class="col-md-4">{SubmissionForm.chatSchedule/chatDate#5}</div>
+				<div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatStartTime#5}</div>
+				<div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatEndTime#5}</div>
+			</div>
+			<div class="row chat-schedule data-check chat-schedule" data-test="{SubmissionForm.chatSchedule/chatDate#6}">
+				<div class="col-md-4">{SubmissionForm.chatSchedule/chatDate#6}</div>
+				<div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatStartTime#6}</div>
+				<div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatEndTime#6}</div>
+			</div>
+			<div class="row chat-schedule data-check chat-schedule" data-test="{SubmissionForm.chatSchedule/chatDate#7}">
+				<div class="col-md-4">{SubmissionForm.chatSchedule/chatDate#7}</div>
+				<div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatStartTime#7}</div>
+				<div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatEndTime#7}</div>
+			</div>
+			<div class="row chat-schedule data-check chat-schedule" data-test="{SubmissionForm.chatSchedule/chatDate#8}">
+				<div class="col-md-4">{SubmissionForm.chatSchedule/chatDate#8}</div>
+				<div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatStartTime#8}</div>
+				<div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatEndTime#8}</div>
+			</div>
+			<div class="row chat-schedule data-check chat-schedule" data-test="{SubmissionForm.chatSchedule/chatDate#9}">
+				<div class="col-md-4">{SubmissionForm.chatSchedule/chatDate#9}</div>
+				<div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatStartTime#9}</div>
+				<div class="col-md-4" style="text-align:right;">{SubmissionForm.chatSchedule/chatEndTime#9}</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<hr />
+<div class="row end-xs">
+	<div class="col-md-12 col-lg-4">
+		<a class="btn-act btn-success" href="{ApplicationGalleryDetailsUrl}">View Details</a>
+	</div>
+	<div class="col-md-12 col-lg-4 data-check" data-test="{SubmissionForm.videoIntroduction.MediaUrl}">
+		<a class="btn-act btn-primary" data-fancybox="" data-src="{SubmissionForm.videoIntroduction.MediaUrl}" data-type="iframe" href="javascript:;">Watch Introduction Video</a>
+	</div>
+	<div class="col-md-12 col-lg-4 data-check" data-test="{SubmissionForm.chatUrl}">
+		<a class="btn-act btn-secondary" data-fancybox="" data-src="{SubmissionForm.chatUrl}" data-type="iframe" href="javascript:;">Join chat</a>
+	</div>
+</div>
