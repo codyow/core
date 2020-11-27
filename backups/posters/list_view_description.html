@@ -1,0 +1,21 @@
+<div class="row">
+	<div class="col-md-12 col-lg-9">
+		<div>
+			<embed height="480px" src="{SubmissionForm.upload.MediaUrl}#toolbar=0&navpanes=0" type="application/pdf" width="100%"></embed>
+		</div>
+		<div class="bg-pad data-check" data-test="{SubmissionForm.listDescription}" style="margin-top:20px;">
+			{SubmissionForm.listDescription}
+		</div>
+	</div>
+	<div class="col-md-12 col-lg-3">
+		<p><a class="btn-act btn-success" href="{ApplicationGalleryDetailsUrl}">View Details</a></p>
+		<p class="data-check" data-test="{SubmissionForm.chat}"><a class="btn-act btn-secondary" data-fancybox="" data-src="{SubmissionForm.chat}" data-type="iframe" href="javascript:;">Launch Chat</a></p>
+		<div class="data-check" data-test="{SubmissionForm.sponsorLogo.MediaUrl}" style="text-align:center;">
+			<hr />
+			<h6 style="margin-top:0px !important; text-align:center; color: var(--color-primary); margin-bottom:10px;">Session Sponsor</h6>
+			<a href="{SubmissionForm.sponsorUrl}" target="_blank">
+				<img src="{SubmissionForm.sponsorLogo.MediaUrl}" width="100%" />
+			</a>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,142 @@
+<h3>{SubmissionForm.title}</h3>
+<div class="bg-pad data-check" data-test="{SubmissionForm.listDescription}" style="margin:20px 0;">
+	{SubmissionForm.description}
+</div>
+<div style="margin-bottom:20px;">
+	<embed height="650px" src="{SubmissionForm.upload.MediaUrl}#toolbar=0&navpanes=0" type="application/pdf" width="100%"></embed>
+</div>
+<h6 class="heading-styled" class="data-check" data-test="{SubmissionForm.authors/authorFirstName#0}">Authors</h6>
+<div class="author-carousel" data-flickity='{ "fullscreen" : true, "adaptiveHeight" : true, "wrapAround" : true, "pageDots" : false,  "autoPlay" : false}'>
+	<div class="carousel-cell data-check" data-test="{SubmissionForm.authors/authorFirstName#0}" style="width:100%;">
+		<div style="width:90%; margin: 0 5%; text-align:center; ">
+			<div class="data-check" data-test="{SubmissionForm.authors/authorHeadshotUpload.MediaUrl#0}{SubmissionForm.authors/authorHeadshotURL#0}" style="background: url({SubmissionForm.authors/authorHeadshotUpload.MediaUrl#0}{SubmissionForm.authors/authorHeadshotURL#0}) center; background-size:contain; margin: 0 auto; width:100px; height:100px; border-radius:50%; margin-bottom:20px;">&nbsp;</div>
+			<h5>{SubmissionForm.authors/authorFirstName#0} {SubmissionForm.authors/authorLastName#0}</h5>
+			<p style="margin:0;">{SubmissionForm.authors/authorEmail#0}</p>
+			<p class="data-check" data-test="{SubmissionForm.authors/authorTitle#0}"><span class="data-check" data-test="{SubmissionForm.authors/authorTitle#0}">{SubmissionForm.authors/authorTitle#0}</span> | <span class="data-check" data-test="{SubmissionForm.authors/authorOrganization#0}">{SubmissionForm.authors/authorOrganization#0}</span></p>
+			<div class="data-check" data-test="{SubmissionForm.authors/authorBio#0}" style="padding:30px; margin-top:10px; background: var(--color-light);">
+				{SubmissionForm.authors/authorBio#0}
+			</div>
+		</div>
+	</div>
+	<div class="carousel-cell data-check" data-test="{SubmissionForm.authors/authorFirstName#1}" style="width:100%;">
+		<div style="width:90%; margin: 0 5%; text-align:center; ">
+			<div class="data-check" data-test="{SubmissionForm.authors/authorHeadshotUpload.MediaUrl#1}{SubmissionForm.authors/authorHeadshotURL#1}" style="background: url({SubmissionForm.authors/authorHeadshotUpload.MediaUrl#1}{SubmissionForm.authors/authorHeadshotURL#1}) center; background-size:contain; margin: 0 auto; width:100px; height:100px; border-radius:50%; margin-bottom:20px;">&nbsp;</div>
+			<h5>{SubmissionForm.authors/authorFirstName#1} {SubmissionForm.authors/authorLastName#1}</h5>
+			<p style="margin:0;">{SubmissionForm.authors/authorEmail#1}</p>
+			<p class="data-check" data-test="{SubmissionForm.authors/authorTitle#1}"><span class="data-check" data-test="{SubmissionForm.authors/authorTitle#1}">{SubmissionForm.authors/authorTitle#1}</span> | <span class="data-check" data-test="{SubmissionForm.authors/authorOrganization#1}">{SubmissionForm.authors/authorOrganization#1}</span></p>
+			<div class="data-check" data-test="{SubmissionForm.authors/authorBio#1}" style="padding:30px; margin-top:10px; background: var(--color-light);">
+				{SubmissionForm.authors/authorBio#1}
+			</div>
+		</div>
+	</div>
+	<div class="carousel-cell data-check" data-test="{SubmissionForm.authors/authorFirstName#2}" style="width:100%;">
+		<div style="width:90%; margin: 0 5%; text-align:center; ">
+			<div class="data-check" data-test="{SubmissionForm.authors/authorHeadshotUpload.MediaUrl#2}{SubmissionForm.authors/authorHeadshotURL#2}" style="background: url({SubmissionForm.authors/authorHeadshotUpload.MediaUrl#2}{SubmissionForm.authors/authorHeadshotURL#2}) center; background-size:contain; margin: 0 auto; width:100px; height:100px; border-radius:50%; margin-bottom:20px;">&nbsp;</div>
+			<h5>{SubmissionForm.authors/authorFirstName#2} {SubmissionForm.authors/authorLastName#2}</h5>
+			<p style="margin:0;">{SubmissionForm.authors/authorEmail#2}</p>
+			<p class="data-check" data-test="{SubmissionForm.authors/authorTitle#2}"><span class="data-check" data-test="{SubmissionForm.authors/authorTitle#2}">{SubmissionForm.authors/authorTitle#2}</span> | <span class="data-check" data-test="{SubmissionForm.authors/authorOrganization#2}">{SubmissionForm.authors/authorOrganization#2}</span></p>
+			<div class="data-check" data-test="{SubmissionForm.authors/authorBio#2}" style="padding:30px; margin-top:10px; background: var(--color-light);">
+				{SubmissionForm.authors/authorBio#2}
+			</div>
+		</div>
+	</div>
+	<div class="carousel-cell data-check" data-test="{SubmissionForm.authors/authorFirstName#3}" style="width:100%;">
+		<div style="width:90%; margin: 0 5%; text-align:center; ">
+			<div class="data-check" data-test="{SubmissionForm.authors/authorHeadshotUpload.MediaUrl#3}{SubmissionForm.authors/authorHeadshotURL#3}" style="background: url({SubmissionForm.authors/authorHeadshotUpload.MediaUrl#3}{SubmissionForm.authors/authorHeadshotURL#3}) center; background-size:contain; margin: 0 auto; width:100px; height:100px; border-radius:50%; margin-bottom:20px;">&nbsp;</div>
+			<h5>{SubmissionForm.authors/authorFirstName#3} {SubmissionForm.authors/authorLastName#3}</h5>
+			<p style="margin:0;">{SubmissionForm.authors/authorEmail#3}</p>
+			<p class="data-check" data-test="{SubmissionForm.authors/authorTitle#3}"><span class="data-check" data-test="{SubmissionForm.authors/authorTitle#3}">{SubmissionForm.authors/authorTitle#3}</span> | <span class="data-check" data-test="{SubmissionForm.authors/authorOrganization#3}">{SubmissionForm.authors/authorOrganization#3}</span></p>
+			<div class="data-check" data-test="{SubmissionForm.authors/authorBio#3}" style="padding:30px; margin-top:10px; background: var(--color-light);">
+				{SubmissionForm.authors/authorBio#3}
+			</div>
+		</div>
+	</div>
+	<div class="carousel-cell data-check" data-test="{SubmissionForm.authors/authorFirstName#4}" style="width:100%;">
+		<div style="width:90%; margin: 0 5%; text-align:center; ">
+			<div class="data-check" data-test="{SubmissionForm.authors/authorHeadshotUpload.MediaUrl#4}{SubmissionForm.authors/authorHeadshotURL#4}" style="background: url({SubmissionForm.authors/authorHeadshotUpload.MediaUrl#4}{SubmissionForm.authors/authorHeadshotURL#4}) center; background-size:contain; margin: 0 auto; width:100px; height:100px; border-radius:50%; margin-bottom:20px;">&nbsp;</div>
+			<h5>{SubmissionForm.authors/authorFirstName#4} {SubmissionForm.authors/authorLastName#4}</h5>
+			<p style="margin:0;">{SubmissionForm.authors/authorEmail#4}</p>
+			<p class="data-check" data-test="{SubmissionForm.authors/authorTitle#4}"><span class="data-check" data-test="{SubmissionForm.authors/authorTitle#4}">{SubmissionForm.authors/authorTitle#4}</span> | <span class="data-check" data-test="{SubmissionForm.authors/authorOrganization#4}">{SubmissionForm.authors/authorOrganization#4}</span></p>
+			<div class="data-check" data-test="{SubmissionForm.authors/authorBio#4}" style="padding:30px; margin-top:10px; background: var(--color-light);">
+				{SubmissionForm.authors/authorBio#4}
+			</div>
+		</div>
+	</div>
+	<div class="carousel-cell data-check" data-test="{SubmissionForm.authors/authorFirstName#5}" style="width:100%;">
+		<div style="width:90%; margin: 0 5%; text-align:center; ">
+			<div class="data-check" data-test="{SubmissionForm.authors/authorHeadshotUpload.MediaUrl#5}{SubmissionForm.authors/authorHeadshotURL#5}" style="background: url({SubmissionForm.authors/authorHeadshotUpload.MediaUrl#5}{SubmissionForm.authors/authorHeadshotURL#5}) center; background-size:contain; margin: 0 auto; width:100px; height:100px; border-radius:50%; margin-bottom:20px;">&nbsp;</div>
+			<h5>{SubmissionForm.authors/authorFirstName#5} {SubmissionForm.authors/authorLastName#5}</h5>
+			<p style="margin:0;">{SubmissionForm.authors/authorEmail#5}</p>
+			<p class="data-check" data-test="{SubmissionForm.authors/authorTitle#5}"><span class="data-check" data-test="{SubmissionForm.authors/authorTitle#5}">{SubmissionForm.authors/authorTitle#5}</span> | <span class="data-check" data-test="{SubmissionForm.authors/authorOrganization#5}">{SubmissionForm.authors/authorOrganization#5}</span></p>
+			<div class="data-check" data-test="{SubmissionForm.authors/authorBio#5}" style="padding:30px; margin-top:10px; background: var(--color-light);">
+				{SubmissionForm.authors/authorBio#5}
+			</div>
+		</div>
+	</div>
+	<div class="carousel-cell data-check" data-test="{SubmissionForm.authors/authorFirstName#6}" style="width:100%;">
+		<div style="width:90%; margin: 0 5%; text-align:center; ">
+			<div class="data-check" data-test="{SubmissionForm.authors/authorHeadshotUpload.MediaUrl#6}{SubmissionForm.authors/authorHeadshotURL#6}" style="background: url({SubmissionForm.authors/authorHeadshotUpload.MediaUrl#6}{SubmissionForm.authors/authorHeadshotURL#6}) center; background-size:contain; margin: 0 auto; width:100px; height:100px; border-radius:50%; margin-bottom:20px;">&nbsp;</div>
+			<h5>{SubmissionForm.authors/authorFirstName#6} {SubmissionForm.authors/authorLastName#6}</h5>
+			<p style="margin:0;">{SubmissionForm.authors/authorEmail#6}</p>
+			<p class="data-check" data-test="{SubmissionForm.authors/authorTitle#6}"><span class="data-check" data-test="{SubmissionForm.authors/authorTitle#6}">{SubmissionForm.authors/authorTitle#6}</span> | <span class="data-check" data-test="{SubmissionForm.authors/authorOrganization#6}">{SubmissionForm.authors/authorOrganization#6}</span></p>
+			<div class="data-check" data-test="{SubmissionForm.authors/authorBio#6}" style="padding:30px; margin-top:10px; background: var(--color-light);">
+				{SubmissionForm.authors/authorBio#6}
+			</div>
+		</div>
+	</div>
+	<div class="carousel-cell data-check" data-test="{SubmissionForm.authors/authorFirstName#7}" style="width:100%;">
+		<div style="width:90%; margin: 0 5%; text-align:center; ">
+			<div class="data-check" data-test="{SubmissionForm.authors/authorHeadshotUpload.MediaUrl#7}{SubmissionForm.authors/authorHeadshotURL#7}" style="background: url({SubmissionForm.authors/authorHeadshotUpload.MediaUrl#7}{SubmissionForm.authors/authorHeadshotURL#7}) center; background-size:contain; margin: 0 auto; width:100px; height:100px; border-radius:50%; margin-bottom:20px;">&nbsp;</div>
+			<h5>{SubmissionForm.authors/authorFirstName#7} {SubmissionForm.authors/authorLastName#7}</h5>
+			<p style="margin:0;">{SubmissionForm.authors/authorEmail#7}</p>
+			<p class="data-check" data-test="{SubmissionForm.authors/authorTitle#7}"><span class="data-check" data-test="{SubmissionForm.authors/authorTitle#7}">{SubmissionForm.authors/authorTitle#7}</span> | <span class="data-check" data-test="{SubmissionForm.authors/authorOrganization#7}">{SubmissionForm.authors/authorOrganization#7}</span></p>
+			<div class="data-check" data-test="{SubmissionForm.authors/authorBio#7}" style="padding:30px; margin-top:10px; background: var(--color-light);">
+				{SubmissionForm.authors/authorBio#7}
+			</div>
+		</div>
+	</div>
+	<div class="carousel-cell data-check" data-test="{SubmissionForm.authors/authorFirstName#6}" style="width:100%;">
+		<div style="width:90%; margin: 0 5%; text-align:center; ">
+			<div class="data-check" data-test="{SubmissionForm.authors/authorHeadshotUpload.MediaUrl#6}{SubmissionForm.authors/authorHeadshotURL#6}" style="background: url({SubmissionForm.authors/authorHeadshotUpload.MediaUrl#6}{SubmissionForm.authors/authorHeadshotURL#6}) center; background-size:contain; margin: 0 auto; width:100px; height:100px; border-radius:50%; margin-bottom:20px;">&nbsp;</div>
+			<h5>{SubmissionForm.authors/authorFirstName#6} {SubmissionForm.authors/authorLastName#6}</h5>
+			<p style="margin:0;">{SubmissionForm.authors/authorEmail#6}</p>
+			<p class="data-check" data-test="{SubmissionForm.authors/authorTitle#6}"><span class="data-check" data-test="{SubmissionForm.authors/authorTitle#6}">{SubmissionForm.authors/authorTitle#6}</span> | <span class="data-check" data-test="{SubmissionForm.authors/authorOrganization#6}">{SubmissionForm.authors/authorOrganization#6}</span></p>
+			<div class="data-check" data-test="{SubmissionForm.authors/authorBio#6}" style="padding:30px; margin-top:10px; background: var(--color-light);">
+				{SubmissionForm.authors/authorBio#6}
+			</div>
+		</div>
+	</div>
+	<div class="carousel-cell data-check" data-test="{SubmissionForm.authors/authorFirstName#7}" style="width:100%;">
+		<div style="width:90%; margin: 0 5%; text-align:center; ">
+			<div class="data-check" data-test="{SubmissionForm.authors/authorHeadshotUpload.MediaUrl#7}{SubmissionForm.authors/authorHeadshotURL#7}" style="background: url({SubmissionForm.authors/authorHeadshotUpload.MediaUrl#7}{SubmissionForm.authors/authorHeadshotURL#7}) center; background-size:contain; margin: 0 auto; width:100px; height:100px; border-radius:50%; margin-bottom:20px;">&nbsp;</div>
+			<h5>{SubmissionForm.authors/authorFirstName#7} {SubmissionForm.authors/authorLastName#7}</h5>
+			<p style="margin:0;">{SubmissionForm.authors/authorEmail#7}</p>
+			<p class="data-check" data-test="{SubmissionForm.authors/authorTitle#7}"><span class="data-check" data-test="{SubmissionForm.authors/authorTitle#7}">{SubmissionForm.authors/authorTitle#7}</span> | <span class="data-check" data-test="{SubmissionForm.authors/authorOrganization#7}">{SubmissionForm.authors/authorOrganization#6}</span></p>
+			<div class="data-check" data-test="{SubmissionForm.authors/authorBio#7}" style="padding:30px; margin-top:10px; background: var(--color-light);">
+				{SubmissionForm.authors/authorBio#7}
+			</div>
+		</div>
+	</div>
+	<div class="carousel-cell data-check" data-test="{SubmissionForm.authors/authorFirstName#8}" style="width:100%;">
+		<div style="width:90%; margin: 0 5%; text-align:center; ">
+			<div class="data-check" data-test="{SubmissionForm.authors/authorHeadshotUpload.MediaUrl#8}{SubmissionForm.authors/authorHeadshotURL#8}" style="background: url({SubmissionForm.authors/authorHeadshotUpload.MediaUrl#8}{SubmissionForm.authors/authorHeadshotURL#8}) center; background-size:contain; margin: 0 auto; width:100px; height:100px; border-radius:50%; margin-bottom:20px;">&nbsp;</div>
+			<h5>{SubmissionForm.authors/authorFirstName#8} {SubmissionForm.authors/authorLastName#8}</h5>
+			<p style="margin:0;">{SubmissionForm.authors/authorEmail#8}</p>
+			<p class="data-check" data-test="{SubmissionForm.authors/authorTitle#8}"><span class="data-check" data-test="{SubmissionForm.authors/authorTitle#8}">{SubmissionForm.authors/authorTitle#8}</span> | <span class="data-check" data-test="{SubmissionForm.authors/authorOrganization#8}">{SubmissionForm.authors/authorOrganization#8}</span></p>
+			<div class="data-check" data-test="{SubmissionForm.authors/authorBio#8}" style="padding:30px; margin-top:10px; background: var(--color-light);">
+				{SubmissionForm.authors/authorBio#8}
+			</div>
+		</div>
+	</div>
+	<div class="carousel-cell data-check" data-test="{SubmissionForm.authors/authorFirstName#9}" style="width:100%;">
+		<div style="width:90%; margin: 0 5%; text-align:center; ">
+			<div class="data-check" data-test="{SubmissionForm.authors/authorHeadshotUpload.MediaUrl#9}{SubmissionForm.authors/authorHeadshotURL#9}" style="background: url({SubmissionForm.authors/authorHeadshotUpload.MediaUrl#9}{SubmissionForm.authors/authorHeadshotURL#9}) center; background-size:contain; margin: 0 auto; width:100px; height:100px; border-radius:50%; margin-bottom:20px;">&nbsp;</div>
+			<h5>{SubmissionForm.authors/authorFirstName#9} {SubmissionForm.authors/authorLastName#9}</h5>
+			<p style="margin:0;">{SubmissionForm.authors/authorEmail#9}</p>
+			<p class="data-check" data-test="{SubmissionForm.authors/authorTitle#9}"><span class="data-check" data-test="{SubmissionForm.authors/authorTitle#9}">{SubmissionForm.authors/authorTitle#6}</span> | <span class="data-check" data-test="{SubmissionForm.authors/authorOrganization#9}">{SubmissionForm.authors/authorOrganization#9}</span></p>
+			<div class="data-check" data-test="{SubmissionForm.authors/authorBio#9}" style="padding:30px; margin-top:10px; background: var(--color-light);">
+				{SubmissionForm.authors/authorBio#9}
+			</div>
+		</div>
+	</div>
+</div>
