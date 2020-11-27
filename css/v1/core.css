@@ -144,9 +144,9 @@ ul.page-list li, ol.page-list li {
 
 .show-tips{
 	position: fixed;
-	bottom: 10px;
-	left:10px;
-	padding:10px;
+	top: 50%;
+	left:0;
+	padding:20px;
 	background: var(--color-white);
 	color:  var(--color-dark);
 	font-weight: bold;
@@ -154,7 +154,9 @@ ul.page-list li, ol.page-list li {
 	cursor:pointer;
 	display:flex;
 	align-items:center;
-	border: 2px solid var(--color-danger);
+	border-right: 2px solid var(--color-danger);
+	border-top: 2px solid var(--color-danger);
+	border-bottom: 2px solid var(--color-danger);
 }
 .show-tips:hover{
 	background: var(--color-light);
