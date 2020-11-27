@@ -1,9 +1,13 @@
-<div class="row between-xs middle-xs">
-<div><a href="https://codytoys.secure-platform.com/a/gallery/rounds/3/schedule" style="font-size:12px; border: 1px solid var(--color-primary); padding: 4px 10px;">🡄 Back to Schedule</a></div>
-<p style="margin:0px;"><span style="font-size:12px">{ApplicationDayDate} |&nbsp;{ApplicationTimeSlotStartTime} to {ApplicationTimeSlotEndTime}</span></p>
+<p><a href="https://codytoys.secure-platform.com/a/gallery?roundId=2" style="font-size:12px; border: 1px solid var(--color-primary); padding: 4px 10px;">🡄 Back to Sessions</a></p>
+<h3>{SubmissionForm.title}</h3>
+<div class="bg-pad data-check" data-test="{SubmissionForm.listDescription}" style="margin:20px 0;">
+	{SubmissionForm.Description}
 </div>
-<h5 class="heading-styled">{SubmissionForm.title}</h5>
-<div class="padded-display">{SubmissionForm.sessionDescription}</div>
+<div style="margin-bottom:20px;">
+	<video controls="" data-poster="{SubmissionForm.videoPoster.MediaUrl}" id="player" playsinline="" width="100%">
+		<source src="{SubmissionForm.videoPoster.MediaUrl}" type="video/mp4" /> <track default="" kind="captions" label="Captions" src="{SubmissionForm.videoCaptions.MediaUrl}" srclang="en" />
+	</video>
+</div>
 <h6 class="heading-styled" class="data-check" data-test="{SubmissionForm.authors/authorFirstName#0}">Authors</h6>
 <div class="author-carousel" data-flickity='{ "fullscreen" : true, "adaptiveHeight" : true, "wrapAround" : true, "pageDots" : false,  "autoPlay" : false}'>
 	<div class="carousel-cell data-check" data-test="{SubmissionForm.authors/authorFirstName#0}" style="width:100%;">
@@ -135,119 +139,6 @@
 			<p class="data-check" data-test="{SubmissionForm.authors/authorTitle#9}"><span class="data-check" data-test="{SubmissionForm.authors/authorTitle#9}">{SubmissionForm.authors/authorTitle#6}</span> | <span class="data-check" data-test="{SubmissionForm.authors/authorOrganization#9}">{SubmissionForm.authors/authorOrganization#9}</span></p>
 			<div class="data-check" data-test="{SubmissionForm.authors/authorBio#9}" style="padding:30px; margin-top:10px; background: var(--color-light);">
 				{SubmissionForm.authors/authorBio#9}
-			</div>
-		</div>
-	</div>
-</div>
-<h6 class="heading-styled" class="data-check" data-test="{SubmissionForm.authors/authorFirstName#0}" style="margin-top: 50px !important;">Speakers</h6>
-<div class="speaker-carousel" data-flickity='{ "fullscreen" : true, "adaptiveHeight" : true, "wrapAround" : true, "pageDots" : false,  "autoPlay" : false}'>
-	<div class="carousel-cell data-check" data-test="{SubmissionForm.speakers/speakerFirstName#0}" style="width:100%;">
-		<div style="width:90%; margin: 0 5%; text-align:center; ">
-			<div class="data-check" data-test="{SubmissionForm.speakers/speakerHeadshotUpload.MediaUrl#0}{SubmissionForm.speakers/speakerHeadshotURL#0}" style="background: url({SubmissionForm.speakers/speakerHeadshotUpload.MediaUrl#0}{SubmissionForm.speakers/speakerHeadshotURL#0}) center; background-size:contain; margin: 0 auto; width:100px; height:100px; border-radius:50%; margin-bottom:20px;">&nbsp;</div>
-			<h5>{SubmissionForm.speakers/speakerFirstName#0} {SubmissionForm.speakers/speakerLastName#0}</h5>
-			<p style="margin:0;">{SubmissionForm.speakers/speakerEmail#0}</p>
-			<p class="data-check" data-test="{SubmissionForm.speakers/speakerTitle#0}"><span class="data-check" data-test="{SubmissionForm.speakers/speakerTitle#0}">{SubmissionForm.speakers/speakerTitle#0}</span> | <span class="data-check" data-test="{SubmissionForm.speakers/speakerOrganization#0}">{SubmissionForm.speakers/speakerOrganization#0}</span></p>
-			<div class="data-check" data-test="{SubmissionForm.speakers/speakerBio#0}" style="padding:30px; margin-top:10px; background: var(--color-light);">
-				{SubmissionForm.speakers/speakerBio#0}
-			</div>
-		</div>
-	</div>
-	<div class="carousel-cell data-check" data-test="{SubmissionForm.speakers/speakerFirstName#1}" style="width:100%;">
-		<div style="width:90%; margin: 0 5%; text-align:center; ">
-			<div class="data-check" data-test="{SubmissionForm.speakers/speakerHeadshotUpload.MediaUrl#1}{SubmissionForm.speakers/speakerHeadshotURL#1}" style="background: url({SubmissionForm.speakers/speakerHeadshotUpload.MediaUrl#1}{SubmissionForm.speakers/speakerHeadshotURL#1}) center; background-size:contain; margin: 0 auto; width:100px; height:100px; border-radius:50%; margin-bottom:20px;">&nbsp;</div>
-			<h5>{SubmissionForm.speakers/speakerFirstName#1} {SubmissionForm.speakers/speakerLastName#1}</h5>
-			<p style="margin:0;">{SubmissionForm.speakers/speakerEmail#1}</p>
-			<p class="data-check" data-test="{SubmissionForm.speakers/speakerTitle#1}"><span class="data-check" data-test="{SubmissionForm.speakers/speakerTitle#1}">{SubmissionForm.speakers/speakerTitle#1}</span> | <span class="data-check" data-test="{SubmissionForm.speakers/speakerOrganization#1}">{SubmissionForm.speakers/speakerOrganization#1}</span></p>
-			<div class="data-check" data-test="{SubmissionForm.speakers/speakerBio#1}" style="padding:30px; margin-top:10px; background: var(--color-light);">
-				{SubmissionForm.speakers/speakerBio#1}
-			</div>
-		</div>
-	</div>
-	<div class="carousel-cell data-check" data-test="{SubmissionForm.speakers/speakerFirstName#2}" style="width:100%;">
-		<div style="width:90%; margin: 0 5%; text-align:center; ">
-			<div class="data-check" data-test="{SubmissionForm.speakers/speakerHeadshotUpload.MediaUrl#2}{SubmissionForm.speakers/speakerHeadshotURL#2}" style="background: url({SubmissionForm.speakers/speakerHeadshotUpload.MediaUrl#2}{SubmissionForm.speakers/speakerHeadshotURL#2}) center; background-size:contain; margin: 0 auto; width:100px; height:100px; border-radius:50%; margin-bottom:20px;">&nbsp;</div>
-			<h5>{SubmissionForm.speakers/speakerFirstName#2} {SubmissionForm.speakers/speakerLastName#2}</h5>
-			<p style="margin:0;">{SubmissionForm.speakers/speakerEmail#2}</p>
-			<p class="data-check" data-test="{SubmissionForm.speakers/speakerTitle#2}"><span class="data-check" data-test="{SubmissionForm.speakers/speakerTitle#2}">{SubmissionForm.speakers/speakerTitle#2}</span> | <span class="data-check" data-test="{SubmissionForm.speakers/speakerOrganization#2}">{SubmissionForm.speakers/speakerOrganization#2}</span></p>
-			<div class="data-check" data-test="{SubmissionForm.speakers/speakerBio#2}" style="padding:30px; margin-top:10px; background: var(--color-light);">
-				{SubmissionForm.speakers/speakerBio#2}
-			</div>
-		</div>
-	</div>
-	<div class="carousel-cell data-check" data-test="{SubmissionForm.speakers/speakerFirstName#3}" style="width:100%;">
-		<div style="width:90%; margin: 0 5%; text-align:center; ">
-			<div class="data-check" data-test="{SubmissionForm.speakers/speakerHeadshotUpload.MediaUrl#3}{SubmissionForm.speakers/speakerHeadshotURL#3}" style="background: url({SubmissionForm.speakers/speakerHeadshotUpload.MediaUrl#3}{SubmissionForm.speakers/speakerHeadshotURL#3}) center; background-size:contain; margin: 0 auto; width:100px; height:100px; border-radius:50%; margin-bottom:20px;">&nbsp;</div>
-			<h5>{SubmissionForm.speakers/speakerFirstName#3} {SubmissionForm.speakers/speakerLastName#3}</h5>
-			<p style="margin:0;">{SubmissionForm.speakers/speakerEmail#3}</p>
-			<p class="data-check" data-test="{SubmissionForm.speakers/speakerTitle#3}"><span class="data-check" data-test="{SubmissionForm.speakers/speakerTitle#3}">{SubmissionForm.speakers/speakerTitle#3}</span> | <span class="data-check" data-test="{SubmissionForm.speakers/speakerOrganization#3}">{SubmissionForm.speakers/speakerOrganization#3}</span></p>
-			<div class="data-check" data-test="{SubmissionForm.speakers/speakerBio#3}" style="padding:30px; margin-top:10px; background: var(--color-light);">
-				{SubmissionForm.speakers/speakerBio#3}
-			</div>
-		</div>
-	</div>
-	<div class="carousel-cell data-check" data-test="{SubmissionForm.speakers/speakerFirstName#4}" style="width:100%;">
-		<div style="width:90%; margin: 0 5%; text-align:center; ">
-			<div class="data-check" data-test="{SubmissionForm.speakers/speakerHeadshotUpload.MediaUrl#4}{SubmissionForm.speakers/speakerHeadshotURL#4}" style="background: url({SubmissionForm.speakers/speakerHeadshotUpload.MediaUrl#4}{SubmissionForm.speakers/speakerHeadshotURL#4}) center; background-size:contain; margin: 0 auto; width:100px; height:100px; border-radius:50%; margin-bottom:20px;">&nbsp;</div>
-			<h5>{SubmissionForm.speakers/speakerFirstName#4} {SubmissionForm.speakers/speakerLastName#4}</h5>
-			<p style="margin:0;">{SubmissionForm.speakers/speakerEmail#4}</p>
-			<p class="data-check" data-test="{SubmissionForm.speakers/speakerTitle#4}"><span class="data-check" data-test="{SubmissionForm.speakers/speakerTitle#4}">{SubmissionForm.speakers/speakerTitle#4}</span> | <span class="data-check" data-test="{SubmissionForm.speakers/speakerOrganization#4}">{SubmissionForm.speakers/speakerOrganization#4}</span></p>
-			<div class="data-check" data-test="{SubmissionForm.speakers/speakerBio#4}" style="padding:30px; margin-top:10px; background: var(--color-light);">
-				{SubmissionForm.speakers/speakerBio#4}
-			</div>
-		</div>
-	</div>
-	<div class="carousel-cell data-check" data-test="{SubmissionForm.speakers/speakerFirstName#5}" style="width:100%;">
-		<div style="width:90%; margin: 0 5%; text-align:center; ">
-			<div class="data-check" data-test="{SubmissionForm.speakers/speakerHeadshotUpload.MediaUrl#5}{SubmissionForm.speakers/speakerHeadshotURL#5}" style="background: url({SubmissionForm.speakers/speakerHeadshotUpload.MediaUrl#5}{SubmissionForm.speakers/speakerHeadshotURL#5}) center; background-size:contain; margin: 0 auto; width:100px; height:100px; border-radius:50%; margin-bottom:20px;">&nbsp;</div>
-			<h5>{SubmissionForm.speakers/speakerFirstName#5} {SubmissionForm.speakers/speakerLastName#5}</h5>
-			<p style="margin:0;">{SubmissionForm.speakers/speakerEmail#5}</p>
-			<p class="data-check" data-test="{SubmissionForm.speakers/speakerTitle#5}"><span class="data-check" data-test="{SubmissionForm.speakers/speakerTitle#5}">{SubmissionForm.speakers/speakerTitle#5}</span> | <span class="data-check" data-test="{SubmissionForm.speakers/speakerOrganization#5}">{SubmissionForm.speakers/speakerOrganization#5}</span></p>
-			<div class="data-check" data-test="{SubmissionForm.speakers/speakerBio#5}" style="padding:30px; margin-top:10px; background: var(--color-light);">
-				{SubmissionForm.speakers/speakerBio#5}
-			</div>
-		</div>
-	</div>
-	<div class="carousel-cell data-check" data-test="{SubmissionForm.speakers/speakerFirstName#6}" style="width:100%;">
-		<div style="width:90%; margin: 0 5%; text-align:center; ">
-			<div class="data-check" data-test="{SubmissionForm.speakers/speakerHeadshotUpload.MediaUrl#6}{SubmissionForm.speakers/speakerHeadshotURL#6}" style="background: url({SubmissionForm.speakers/speakerHeadshotUpload.MediaUrl#6}{SubmissionForm.speakers/speakerHeadshotURL#6}) center; background-size:contain; margin: 0 auto; width:100px; height:100px; border-radius:50%; margin-bottom:20px;">&nbsp;</div>
-			<h5>{SubmissionForm.speakers/speakerFirstName#6} {SubmissionForm.speakers/speakerLastName#6}</h5>
-			<p style="margin:0;">{SubmissionForm.speakers/speakerEmail#6}</p>
-			<p class="data-check" data-test="{SubmissionForm.speakers/speakerTitle#6}"><span class="data-check" data-test="{SubmissionForm.speakers/speakerTitle#6}">{SubmissionForm.speakers/speakerTitle#6}</span> | <span class="data-check" data-test="{SubmissionForm.speakers/speakerOrganization#6}">{SubmissionForm.speakers/speakerOrganization#6}</span></p>
-			<div class="data-check" data-test="{SubmissionForm.speakers/speakerBio#6}" style="padding:30px; margin-top:10px; background: var(--color-light);">
-				{SubmissionForm.speakers/speakerBio#6}
-			</div>
-		</div>
-	</div>
-	<div class="carousel-cell data-check" data-test="{SubmissionForm.speakers/speakerFirstName#7}" style="width:100%;">
-		<div style="width:90%; margin: 0 5%; text-align:center; ">
-			<div class="data-check" data-test="{SubmissionForm.speakers/speakerHeadshotUpload.MediaUrl#7}{SubmissionForm.speakers/speakerHeadshotURL#7}" style="background: url({SubmissionForm.speakers/speakerHeadshotUpload.MediaUrl#7}{SubmissionForm.speakers/speakerHeadshotURL#7}) center; background-size:contain; margin: 0 auto; width:100px; height:100px; border-radius:50%; margin-bottom:20px;">&nbsp;</div>
-			<h5>{SubmissionForm.speakers/speakerFirstName#7} {SubmissionForm.speakers/speakerLastName#7}</h5>
-			<p style="margin:0;">{SubmissionForm.speakers/speakerEmail#7}</p>
-			<p class="data-check" data-test="{SubmissionForm.speakers/speakerTitle#7}"><span class="data-check" data-test="{SubmissionForm.speakers/speakerTitle#7}">{SubmissionForm.speakers/speakerTitle#7}</span> | <span class="data-check" data-test="{SubmissionForm.speakers/speakerOrganization#7}">{SubmissionForm.speakers/speakerOrganization#7}</span></p>
-			<div class="data-check" data-test="{SubmissionForm.speakers/speakerBio#7}" style="padding:30px; margin-top:10px; background: var(--color-light);">
-				{SubmissionForm.speakers/speakerBio#7}
-			</div>
-		</div>
-	</div>
-	<div class="carousel-cell data-check" data-test="{SubmissionForm.speakers/speakerFirstName#8}" style="width:100%;">
-		<div style="width:90%; margin: 0 5%; text-align:center; ">
-			<div class="data-check" data-test="{SubmissionForm.speakers/speakerHeadshotUpload.MediaUrl#8}{SubmissionForm.speakers/speakerHeadshotURL#8}" style="background: url({SubmissionForm.speakers/speakerHeadshotUpload.MediaUrl#8}{SubmissionForm.speakers/speakerHeadshotURL#8}) center; background-size:contain; margin: 0 auto; width:100px; height:100px; border-radius:50%; margin-bottom:20px;">&nbsp;</div>
-			<h5>{SubmissionForm.speakers/speakerFirstName#8} {SubmissionForm.speakers/speakerLastName#8}</h5>
-			<p style="margin:0;">{SubmissionForm.speakers/speakerEmail#8}</p>
-			<p class="data-check" data-test="{SubmissionForm.speakers/speakerTitle#8}"><span class="data-check" data-test="{SubmissionForm.speakers/speakerTitle#8}">{SubmissionForm.speakers/speakerTitle#8}</span> | <span class="data-check" data-test="{SubmissionForm.speakers/speakerOrganization#8}">{SubmissionForm.speakers/speakerOrganization#8}</span></p>
-			<div class="data-check" data-test="{SubmissionForm.speakers/speakerBio#8}" style="padding:30px; margin-top:10px; background: var(--color-light);">
-				{SubmissionForm.speakers/speakerBio#8}
-			</div>
-		</div>
-	</div>
-	<div class="carousel-cell data-check" data-test="{SubmissionForm.speakers/speakerFirstName#9}" style="width:100%;">
-		<div style="width:90%; margin: 0 5%; text-align:center; ">
-			<div class="data-check" data-test="{SubmissionForm.speakers/speakerHeadshotUpload.MediaUrl#9}{SubmissionForm.speakers/speakerHeadshotURL#9}" style="background: url({SubmissionForm.speakers/speakerHeadshotUpload.MediaUrl#9}{SubmissionForm.speakers/speakerHeadshotURL#9}) center; background-size:contain; margin: 0 auto; width:100px; height:100px; border-radius:50%; margin-bottom:20px;">&nbsp;</div>
-			<h5>{SubmissionForm.speakers/speakerFirstName#9} {SubmissionForm.speakers/speakerLastName#9}</h5>
-			<p style="margin:0;">{SubmissionForm.speakers/speakerEmail#9}</p>
-			<p class="data-check" data-test="{SubmissionForm.speakers/speakerTitle#9}"><span class="data-check" data-test="{SubmissionForm.speakers/speakerTitle#9}">{SubmissionForm.speakers/speakerTitle#9}</span> | <span class="data-check" data-test="{SubmissionForm.speakers/speakerOrganization#9}">{SubmissionForm.speakers/speakerOrganization#9}</span></p>
-			<div class="data-check" data-test="{SubmissionForm.speakers/speakerBio#9}" style="padding:30px; margin-top:10px; background: var(--color-light);">
-				{SubmissionForm.speakers/speakerBio#9}
 			</div>
 		</div>
 	</div>
