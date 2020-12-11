@@ -7,10 +7,10 @@ body{
 	overflow-x:hidden;
 }
 a,  a:visited{
-	color: var(--color-primary);
+	color: var(--color-primary) !important;
 }
 a:hover{
-	color: var(--color-secondary);
+	color: var(--color-secondary) !important;
 }
 
 #warp{
