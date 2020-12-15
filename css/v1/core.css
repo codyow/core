@@ -12,6 +12,7 @@ a,  a:visited{
 a:hover{
 	color: var(--color-secondary) !important;
 }
+.nav-menu>ul>li a::before {background-color: var(--color-primary)}
 
 #warp{
     background: var(--background-pattern) center repeat fixed !important;
@@ -161,4 +162,53 @@ ul.page-list li, ol.page-list li {
 .show-tips:hover{
 	background: var(--color-light);
 	color: var(--color-dark);
+}
+
+
+hr{margin: 20px 0 !important;}
+div.scheduleTimeSlot div.title {
+    padding: 0px 15px !important;
+}
+div.scheduleTimeSlot div.chevron {
+    margin: 1.2em 20px !important;
+}
+.favorite {
+    background-image: url(https://cdn.filestackcontent.com/XS0zSAMzTKuYTGO9wJIh?star_selected.svg);
+}
+.not-favorite {
+    background-image: url(https://cdn.filestackcontent.com/dlpIonLVSBKuVnJ3SR5V?star.svg);
+}
+ul.scheduleDayList li.selected a {
+    border: 1px solid var(--color-primary);
+    border-bottom: none;
+    background: var(--color-primary);
+    color: var(--color-white);
+}
+ul.scheduleDayList a {
+    border-radius:0px !important;
+    letter-spacing: 1px;
+}
+ul.scheduleDayList li a:hover {
+    background: var(--color-light);
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+}
+.bg-pad{
+    background: var(--color-light);
+    padding: 20px;
+}
+.vc-footer{
+text-align:center;
+padding: 15px 0;
+margin-top: 40px;
+background: var(--color-white);
+color: var(--color-primary);
+}
+.main-navigation li ul li a {
+    background: var(--color-primary);
+    min-width: 18rem;
+    color: #fff !important;
+}
+.main-navigation li ul li a:visited,  .main-navigation li ul li a:hover{
+	color: #fff !important;
 }
