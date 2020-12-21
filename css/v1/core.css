@@ -207,8 +207,16 @@ color: var(--color-primary);
 .main-navigation li ul li a {
     background: var(--color-primary);
     min-width: 18rem;
-    color: #fff !important;
+    color: var(--color-white) !important;
 }
 .main-navigation li ul li a:visited,  .main-navigation li ul li a:hover{
-	color: #fff !important;
+	color: var(--color-white) !important;
+}
+
+#warp .formBuilderFormBreadCrumb ul li a.selected{
+	background-color: var(--color-white) !important;
+}
+
+#warp .formBuilderFormBreadCrumb ul li a.selected::after {
+    border-color: transparent transparent transparent var(--color-white) !important;
 }
