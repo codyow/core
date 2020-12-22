@@ -218,3 +218,7 @@ color: var(--color-primary);
 #warp .formBuilderFormBreadCrumb ul li a.selected::after {
     border-color: transparent transparent transparent var(--color-white) !important;
 }
+
+#warp .formBuilderFormBreadCrumb ul li a.selected::before {
+    border-color: transparent transparent transparent var(--color-white) !important;
+}
