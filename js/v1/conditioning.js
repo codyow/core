@@ -4,3 +4,7 @@ $('.data-check').waitUntilExists(function (){
         $(this).remove();
     }
 });
+
+$('.data-remove').waitUntilExists(function () {
+	$('.data-remove:empty').remove();
+});
