@@ -19,6 +19,11 @@ a.btn-secondary{
 	border: 2px solid var(--color-secondary) !important;
 	color: var(--color-white) !important;
 }
+a.btn-dark{
+	background-color: var(--color-dark) !important;
+	border: 2px solid var(--color-dark) !important;
+	color: var(--color-white) !important;
+}
 a.btn-light{
 	background-color: var(--color-light) !important;
 	border: 2px solid var(--color-light) !important;
@@ -62,6 +67,11 @@ button.btn-primary{
 button.btn-secondary{
 	background-color: var(--color-secondary) !important;
 	border: 2px solid var(--color-secondary) !important;
+	color: var(--color-white) !important;
+}
+button.btn-dark{
+	background-color: var(--color-dark) !important;
+	border: 2px solid var(--color-dark) !important;
 	color: var(--color-white) !important;
 }
 button.btn-light{
