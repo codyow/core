@@ -222,3 +222,8 @@ color: var(--color-primary);
 #warp .formBuilderFormBreadCrumb ul li a.selected::before {
     border-color: transparent transparent transparent var(--color-white) !important;
 }
+
+:root {
+    --plyr-video-control-background-hover: var(--color-primary);
+    --plyr-color-main: var(--color-primary);
+}
