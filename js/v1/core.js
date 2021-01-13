@@ -39,3 +39,7 @@ $.fn.waitUntilExists = function(handler, shouldRunHandlerOnce, isChild) {
 
 	  return $this;
   }
+
+  if (window.location.href.indexOf("collaborators") > -1) {
+     $( "form fieldset > section label" ).show();
+  }
