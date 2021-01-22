@@ -43,3 +43,5 @@ $.fn.waitUntilExists = function(handler, shouldRunHandlerOnce, isChild) {
   if (window.location.href.indexOf("collaborators") > -1) {
      $( "form fieldset > section label" ).show();
   }
+
+$( ".viewAllDayList" ).addClass( "btn-act btn-primary" );
