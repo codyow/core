@@ -231,3 +231,7 @@ color: var(--color-primary);
     --plyr-video-control-background-hover: var(--color-primary);
     --plyr-color-main: var(--color-primary);
 }
+
+.creditCardSection > div div label {
+    display: block !important;
+}
