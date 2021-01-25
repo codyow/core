@@ -235,3 +235,6 @@ color: var(--color-primary);
 .creditCardSection > div div label {
     display: block !important;
 }
+.results-sort{
+	display: none !important;
+}
