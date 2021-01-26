@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'DINPro';
+  src:url('DINPro.woff') format('woff'),
+        url('DINPro.woff2') format('woff2'),
+        url('DINPro.eot'),
+        url('DINPro.eot?#iefix') format('embedded-opentype'),
+        url('DINPro.otf') format('truetype');
+
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body, a, p, span, li, td, div, label, blockquote, input, textarea, select, h1, h2, h3, h4, h5, h6, button {
+    font-family: 'DINPro';
+}
