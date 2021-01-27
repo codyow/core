@@ -1,0 +1,17 @@
+@media (max-width: 767px) {                  
+	.sidebar_right{
+		display: none;
+	}
+	.gallery_view .gallery_view_schedule{
+		display:none;
+	}
+	#schedule {
+		width: 100% !important;
+	}
+	.gallery_mainContent {
+	    width: 100% !important;
+	}
+	.gallery_info {
+    	width: 100% !important;
+	}
+}
