@@ -240,3 +240,10 @@ color: var(--color-primary);
 .results-sort{
 	display: none !important;
 }
+
+
+@media only screen and (min-width: 769px) {
+    .nav-menu > ul > li a::before {
+        background-color: var(--color-secondary);
+    }
+}
