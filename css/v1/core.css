@@ -3,7 +3,9 @@ html, body,p,ul,li{
 }
 
 body{
-	background: var(--background-pattern) repeat;
+	background-color: var(--background-color);
+	background-image: var(--background-pattern);
+	background-repeat: repeat;
 	overflow-x:hidden;
 }
 a,  a:visited{
