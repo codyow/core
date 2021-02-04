@@ -57,3 +57,7 @@ h5{
 h6{
 	font-size: var(--h6-size) !important;
 }
+
+.data-message{
+	display: none;
+}

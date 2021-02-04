@@ -8,9 +8,9 @@
 @import "//cdn.plyr.io/3.6.2/plyr.css";
 @import "//unpkg.com/flickity@2/dist/flickity.min.css";
 
-@import "//cdn.jsdelivr.net/gh/codyow/core@latest/css/v1/core.css";
-@import "//cdn.jsdelivr.net/gh/codyow/core@latest/css/v1/utilities.css";
-@import "//cdn.jsdelivr.net/gh/codyow/core@latest/css/v1/forms.css";
-@import "//cdn.jsdelivr.net/gh/codyow/core@latest/css/v1/gallery.css";
-@import "//cdn.jsdelivr.net/gh/codyow/core@latest/css/v1/buttons.css";
-@import "//cdn.jsdelivr.net/gh/codyow/core@latest/css/v1/responsive.css";
+@import "//cdn.jsdelivr.net/gh/codyow/core@master/css/v1/core.css";
+@import "//cdn.jsdelivr.net/gh/codyow/core@master/css/v1/utilities.css";
+@import "//cdn.jsdelivr.net/gh/codyow/core@master/css/v1/forms.css";
+@import "//cdn.jsdelivr.net/gh/codyow/core@master/css/v1/gallery.css";
+@import "//cdn.jsdelivr.net/gh/codyow/core@master/css/v1/buttons.css";
+@import "//cdn.jsdelivr.net/gh/codyow/core@master/css/v1/responsive.css";
