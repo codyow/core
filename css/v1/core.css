@@ -247,3 +247,7 @@ color: var(--color-primary);
         background-color: var(--color-secondary);
     }
 }
+
+.gallery_info h4:nth-of-type(2) {
+    display: none;
+}
