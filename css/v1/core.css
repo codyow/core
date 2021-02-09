@@ -251,3 +251,11 @@ color: var(--color-primary);
 .gallery_info h4:nth-of-type(2) {
     display: none;
 }
+
+div.scheduleTimeSlot div.chevron {
+    margin: 0 !important;
+}
+
+.text_value_search_box  .viewAllDayList {
+	display:none;
+}
