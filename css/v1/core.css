@@ -238,10 +238,35 @@ color: var(--color-primary);
 .results-sort{
 	display: none !important;
 }
+/* restores login screen*/
+.content-left.loginOrRegister-leftPanel {
+    display: block;
+    margin-top: 0 !important;
+}
 
+.socialAuth {
+    display:none;
+}
+
+.btn.redirectToThirdPartyCorporateAuthProvider {
+    margin-top: 10px;
+    width: 100%;
+}
 
 @media only screen and (min-width: 769px) {
     .nav-menu > ul > li a::before {
         background-color: var(--color-secondary);
+    }
+    /*swaps flyout right to left*/
+    .main-navigation li ul li ul {
+        left: unset;
+        right: 150%;
+        transition-property: opacity, top, right;
+    }
+
+    .main-navigation ul li:hover > ul li:hover > ul {
+        top: 0;
+        left: unset;
+        right: 100%;
     }
 }
