@@ -8,3 +8,10 @@ $('.data-check').waitUntilExists(function (){
 $('.data-remove').waitUntilExists(function () {
 	$('.data-remove:empty').remove();
 });
+
+$('.data-message').waitUntilExists(function (){
+   var dataCheck = $(this).data("test");
+    if(dataCheck != ''){
+        $(this).show();
+    }
+});
