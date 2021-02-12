@@ -240,6 +240,19 @@ color: var(--color-primary);
 .results-sort{
 	display: none !important;
 }
+
+.gallery_info h4:nth-of-type(2) {
+    display: none;
+}
+
+div.scheduleTimeSlot div.chevron {
+    margin: 0 !important;
+}
+
+.text_value_search_box  .viewAllDayList {
+    display:none;
+}
+
 /* restores login screen*/
 .content-left.loginOrRegister-leftPanel {
     display: block;
@@ -271,16 +284,4 @@ color: var(--color-primary);
         left: unset;
         right: 100%;
     }
-}
-
-.gallery_info h4:nth-of-type(2) {
-    display: none;
-}
-
-div.scheduleTimeSlot div.chevron {
-    margin: 0 !important;
-}
-
-.text_value_search_box  .viewAllDayList {
-	display:none;
 }
