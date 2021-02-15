@@ -285,8 +285,8 @@ color: var(--color-primary);
 /* fixes chevron display in schedule view*/
 div.scheduleTimeSlot {
     cursor: pointer;
-    background: #383838;
-    border: 1px solid #464545;
+    background: var(--color-primary);
+    border: var(--color-primary);
     position: relative;
 }
 
