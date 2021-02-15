@@ -245,10 +245,6 @@ color: var(--color-primary);
     display: none;
 }
 
-div.scheduleTimeSlot div.chevron {
-    margin: 0 !important;
-}
-
 .text_value_search_box  .viewAllDayList {
     display:none;
 }
@@ -284,4 +280,22 @@ div.scheduleTimeSlot div.chevron {
         left: unset;
         right: 100%;
     }
+}
+
+/* fixes chevron display in schedule view*/
+div.scheduleTimeSlot {
+    cursor: pointer;
+    background: #383838;
+    border: 1px solid #464545;
+    position: relative;
+}
+
+div.scheduleTimeSlot div.chevron {
+    display: inline-block;
+    height: 10px;
+    width: 15px;
+    float: none !important;
+    position: absolute;
+    right: 0;
+    margin: 1em 20px;
 }
