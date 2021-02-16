@@ -285,8 +285,9 @@ color: var(--color-primary);
 /* fixes chevron display in schedule view*/
 div.scheduleTimeSlot {
     cursor: pointer;
-    background: var(--color-primary);
-    border: var(--color-primary);
+    background: var(--color-primary) !important;
+    border: var(--color-primary) !important;
+    border-bottom: var(--color-dark) !important;
     position: relative;
 }
 
@@ -298,4 +299,20 @@ div.scheduleTimeSlot div.chevron {
     position: absolute;
     right: 0;
     margin: 1em 20px;
+}
+
+a.btn_view_entry {
+    background-color: var(--color-secondary) !important;
+    color: var(--color-white) !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: .42857em .85714em;
+    display: block;
+    text-align: center;
+    transition: 0.3s;
+}
+
+a:visited.btn_view_entry {
+    background-color: var(--color-primary) !important;
+    color: var(--color-white) !important;
 }
