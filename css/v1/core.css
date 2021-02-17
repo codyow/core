@@ -364,3 +364,20 @@ input[type=submit]:hover.submit.saveAndNext {
     background: var(--color-secondary);
     color: var(--color-white);
 }
+
+/* gallery right sidebar */
+button.search {
+    width: 100%;
+    background: var(--color-secondary);
+    color: var(--color-white) !important;
+}
+
+.gallery_right_panel {
+    border: 1px solid #eee;
+    border-top: 3px solid var(--color-primary);
+    margin-bottom: 20px;
+}
+
+.search_filter_content label {
+    color: var(--color-secondary);
+}
