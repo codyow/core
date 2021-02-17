@@ -349,3 +349,18 @@ a:visited.btn_view_entry {
 .muted {
     opacity: 80% !important;
 }
+
+/* form buttons */
+input[type=submit].submit.finalize,
+input[type=submit]:hover.submit.save,
+input[type=submit].submit.saveAndNext {
+    background: var(--color-primary);
+    color: var(--color-white);
+}
+
+input[type=submit]:hover.submit.finalize,
+input[type=submit].submit.save,
+input[type=submit]:hover.submit.saveAndNext {
+    background: var(--color-secondary);
+    color: var(--color-white);
+}
