@@ -355,14 +355,14 @@ input[type=submit].submit.finalize,
 input[type=submit]:hover.submit.save,
 input[type=submit].submit.saveAndNext {
     background: var(--color-primary);
-    color: var(--color-white);
+    color: var(--color-white) !important;
 }
 
 input[type=submit]:hover.submit.finalize,
 input[type=submit].submit.save,
 input[type=submit]:hover.submit.saveAndNext {
     background: var(--color-secondary);
-    color: var(--color-white);
+    color: var(--color-white) !important;
 }
 
 /* gallery right sidebar */
