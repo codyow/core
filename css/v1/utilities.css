@@ -34,6 +34,16 @@ body, a, p, span, li, td, div, label, blockquote, input, textarea, select, h1, h
 	letter-spacing: 1px !important;
 }
 
+.heading-styled-secondary {
+	padding: 10px !important;
+	background: var(--color-secondary) !important;
+	color: var(--color-white) !important;
+	text-align: center !important;
+	font-weight: bold !important;
+	margin: 20px 0 !important;
+	letter-spacing: 1px !important;
+}
+
 h1{
 	font-size: var(--h1-size) !important;
 }
