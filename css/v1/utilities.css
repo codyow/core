@@ -71,3 +71,48 @@ h6{
 .data-message{
 	display: none;
 }
+
+/* utility classes */
+.centered {
+	text-align: center !important;
+}
+
+.small {
+	font-size: .9rem !important;
+}
+
+.uppercase {
+	text-transform: uppercase !important;
+}
+
+.lowercase {
+	text-transform: lowercase !important;
+}
+
+.emphasis {
+	font-style: italic !important;
+}
+
+.bold {
+	font-weight: 700 !important;
+}
+
+.bolder {
+	font-weight: 800 !important;
+}
+
+.muted {
+	opacity: 80% !important;
+}
+
+.m-0 {
+	margin: 0 !important;
+}
+
+.m-1 {
+	margin: 1rem !important;
+}
+
+.mb-1 {
+	margin-bottom: 1rem;
+}
