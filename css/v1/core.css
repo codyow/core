@@ -187,10 +187,10 @@ div.scheduleTimeSlot div.chevron {
 ul.scheduleDayList li.selected a {
     border: 1px solid var(--color-primary);
     border-bottom: none;
-    color: var(--color-white);
+    color: var(--color-white) !important;
 }
 ul.scheduleDayList a {
-    border-radius:0px !important;
+    border-radius:0 !important;
     letter-spacing: 1px;
 }
 ul.scheduleDayList li a:hover {
