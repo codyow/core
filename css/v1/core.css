@@ -185,6 +185,7 @@ div.scheduleTimeSlot div.chevron {
     background-image: url(https://cdn.filestackcontent.com/dlpIonLVSBKuVnJ3SR5V?star.svg);
 }
 ul.scheduleDayList li.selected a {
+    background: var(--color-primary);
     border: 1px solid var(--color-primary);
     border-bottom: none;
     color: var(--color-white) !important;
