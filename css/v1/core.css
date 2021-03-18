@@ -350,3 +350,10 @@ button.search {
 .search_filter_content label {
     color: var(--color-secondary);
 }
+
+.categoryList ul li label{
+	display:block !important;
+}
+.categoryList ul br {
+	display: none !important;
+}
