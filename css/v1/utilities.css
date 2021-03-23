@@ -116,3 +116,16 @@ h6{
 .mb-1 {
 	margin-bottom: 1rem;
 }
+
+.bordered-primary {
+	border: 3px solid var(--color-primary);
+}
+.bordered-secondary {
+	border: 3px solid var(--color-secondary);
+}
+.bordered-both {
+	border-top: 3px solid var(--color-primary);
+	border-left: 3px solid var(--color-primary);
+	border-right: 3px solid var(--color-secondary);
+	border-bottom: 3px solid var(--color-secondary);
+}
