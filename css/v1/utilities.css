@@ -129,3 +129,10 @@ h6{
 	border-right: 3px solid var(--color-secondary);
 	border-bottom: 3px solid var(--color-secondary);
 }
+.readOnly, .read-only,
+.readOnly div.view span.formValue,
+.readOnly div.view div.formValue,
+.readOnly div.view ul li select,
+.readOnly div.view input[type=text] {
+	background: #eee !important;
+}
