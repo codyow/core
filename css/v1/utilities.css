@@ -136,3 +136,15 @@ h6{
 .readOnly div.view input[type=text] {
 	background: #eee !important;
 }
+
+
+@media all and (min-width:551px) {
+	.desktop-br {display: inline;}
+	.mobile-br {display: none;}
+
+}
+
+@media all and (max-width:550px) {
+	.desktop-br {display: none;}
+	.mobile-br {display: inline;}
+}
