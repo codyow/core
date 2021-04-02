@@ -1,0 +1,69 @@
+<div class="flex">
+	<div class="w-1/3">
+		<img src="{SubmissionForm.logo.MediaUrl}" class="bg-white w-full" />
+		<div class="text-2xl mb-4 text-center">{SubmissionForm.organization}</div>
+		<div class="bg-blue-200 text-gray-700 text-center text-sm w-full p-2 mb-4 rounded data-check" data-test="{SubmissionForm.addressStreet}">
+			<div class="mb-2 text-sm font-bold tracking-wide">Point of Contact</div>
+			<div class="p-2 bg-white text-xs">{SubmissionForm.pocName} <em>{SubmissionForm.pocTitle}</em><br />{SubmissionForm.pocEmail} {SubmissionForm.pocPhone}</div>
+		</div>
+		<div class="bg-blue-200 text-gray-700 text-center text-sm w-full p-2 mb-4 rounded data-check" data-test="{SubmissionForm.addressStreet}">
+			<div class="mb-2 text-sm font-bold tracking-wide">Address</div>
+			<div class="p-2 bg-white text-xs">{SubmissionForm.addressStreet}<br />{SubmissionForm.addressCity}, {SubmissionForm.addressState} {SubmissionForm.addressPostalCode} {SubmissionForm.addressCountry}</div>
+		</div>
+		<hr class="data-check mb-2" data-test="{SubmissionForm.socialMedia}" />
+		<div class="row center-xs social-media-information data-check" data-test="{SubmissionForm.socialMedia}"><a class="data-check" data-test="{SubmissionForm.blog}" href="{SubmissionForm.blog}"><img class="data-check" data-test="{SubmissionForm.blog}" src="https://cdn.filestackcontent.com/l3CIORvEQvqJlYEqlsbC?blog.svg" /> </a> <a class="data-check" data-test="{SubmissionForm.facebook}" href="{SubmissionForm.facebook}"> <img src="https://cdn.filestackcontent.com/lzGLBrsVRpiNvsYNcWcF?facebook.svg" /> </a> <a class="data-check" data-test="{SubmissionForm.instagram}" href="{SubmissionForm.instagram}"> <img src="https://cdn.filestackcontent.com/XCVljiHRi6iyrrrvw9lq?instagram.svg" /> </a> <a class="data-check" data-test="{SubmissionForm.linkedin}" href="{SubmissionForm.linkedin}"> <img src="https://cdn.filestackcontent.com/kM64ITXvS9aPw9I3EY8y?linkedin.svg" /> </a> <a class="data-check" data-test="{SubmissionForm.twitter}" href="{SubmissionForm.twitter}"> <img src="https://cdn.filestackcontent.com/HwgR9Lk8R2yht9P7reAi?twitter.svg" /> </a></div>
+		<div class="mb-4 data-check" data-test="{SubmissionForm.website}">
+			<a href="{SubmissionForm.website}" target="_blank" class="py-2 px-4 mb-2 block bg-blue-600 hover:bg-blue-700 focus:ring-blue-500 focus:ring-offset-blue-200 text-white w-full transition ease-in duration-200 text-center text-base tracking-wide focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg"><span class="text-white">View Website</span></a>
+		</div>
+		<div class="mb-4 data-check" data-test="{SubmissionForm.Resources/resourceUpload.MediaUrl#0}{SubmissionForm.Resources/resourceURL#0}">
+			<a class="py-2 px-4 mb-2 block bg-blue-600 hover:bg-blue-700 focus:ring-blue-500 focus:ring-offset-blue-200 text-white w-full transition ease-in duration-200 text-center text-base tracking-wide focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg" href="{SubmissionForm.Resources/resourceUpload.MediaUrl#0}{SubmissionForm.Resources/resourceURL#0}" target="_blank"><span class="text-white">View Resource</span></a>
+		</div>
+		<div class="bg-blue-200 text-gray-700 text-sm w-full p-2 mb-4 rounded data-check" data-test="{SubmissionForm.chatSchedule/chatDate#0}">
+			<div class="mb-2 text-sm font-bold tracking-wide text-center">Chat Schedule</div>
+			<div class="p-4 bg-white text-xs">
+				<div class="flex">
+					<div class="w-1/3 font-bold">
+						Date
+					</div>
+					<div class="w-1/3 font-bold text-center">
+						Start Time
+					</div>
+					<div class="w-1/3 font-bold text-right">
+						End Time
+					</div>
+				</div>
+				<div class="flex data-check" data-test="{SubmissionForm.chatSchedule/chatDate#0}">
+					<div class="w-1/3 text-sm">
+						{SubmissionForm.chatSchedule/chatDate#0}
+					</div>
+					<div class="w-1/3 text-sm text-center">
+						{SubmissionForm.chatSchedule/chatStartTime#0}
+					</div>
+					<div class="w-1/3 text-sm text-right">
+						{SubmissionForm.chatSchedule/chatEndTime#0}
+					</div>
+				</div>
+				<div class="flex data-check" data-test="{SubmissionForm.chatSchedule/chatDate#1}">
+					<div class="w-1/3 text-sm">
+						{SubmissionForm.chatSchedule/chatDate#1}
+					</div>
+					<div class="w-1/3 text-sm text-center">
+						{SubmissionForm.chatSchedule/chatStartTime#1}
+					</div>
+					<div class="w-1/3 text-sm text-right">
+						{SubmissionForm.chatSchedule/chatEndTime#1}
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mb-2">
+			<a class="py-2 px-4 mb-2 block bg-blue-600 hover:bg-blue-700 focus:ring-blue-500 focus:ring-offset-blue-200 text-white w-full transition ease-in duration-200 text-center text-base tracking-wide focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg data-check" data-fancybox="" data-src="{SubmissionForm.chatUrl}" data-test="{SubmissionForm.chatUrl}" data-type="iframe" href="javascript:;"><span class="text-white">Join Chat</span></a>
+		</div>
+	</div>
+	<div class="w-2/3 pl-6">
+		<div class="intro-video mb-6 data-check" data-test="{SubmissionForm.videoUpload.MediaUrl}">
+			<video controls="" data-poster="{SubmissionForm.videoPoster.MediaUrl}" id="player" playsinline="" width="100%"><source src="{SubmissionForm.videoUpload.MediaUrl}" type="video/mp4" /> <track default="" kind="captions" label="Captions" src="{SubmissionForm.videoCaptions.MediaUrl}" srclang="en" /></video>
+		</div>
+		<div class="bg-gray-50 p-4 description data-check" data-test="{SubmissionForm.description}">{SubmissionForm.description}</div>
+	</div>
+</div>

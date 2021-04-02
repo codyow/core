@@ -1,0 +1,263 @@
+<div class="text-xl bg-blue-600 text-white p-4 mb-4 font-bold tracking-wide">{SubmissionForm.title}</div>
+
+<div class="bg-gray-50 p-4 data-check text-lg mb-4" data-test="{SubmissionForm.sessionShortDescription}">{SubmissionForm.sessionShortDescription}</div>
+
+<div class="bg-gray-200 text-gray-700 text-center text-sm w-full p-2 rounded mb-4 data-check" data-test="{SubmissionForm.programMaterialsCoordinator}">
+	<div class="mb-2 text-sm font-bold tracking-wide">Program Materials Coordinator</div>
+	<div class="p-2 bg-white text-sm">{SubmissionForm.programMaterialsCoordinator}</div>
+</div>
+
+<div class="bg-gray-200 text-gray-700 text-center text-sm w-full p-2 rounded mb-4 data-check" data-test="{SubmissionForm.programChair1}">
+	<div class="mb-2 text-sm font-bold tracking-wide">Program Chair<span class="data-check" data-test="{SubmissionForm.programChair1}">s</span></div>
+	<div class="p-2 bg-white">
+		<div class="text-sm tracking-wide data-check"data-test="{SubmissionForm.programChair1}">{SubmissionForm.programChair1}</div>
+		<div class="mt-2 text-sm tracking-wide data-check" data-test="{SubmissionForm.programChair2}">{SubmissionForm.programChair2}</div>
+		<div class="mt-2 text-sm tracking-wide data-check" data-test="{SubmissionForm.programChair3}">{SubmissionForm.programChair3}</div>
+		<div class="mt-2 text-sm tracking-wide data-check" data-test="{SubmissionForm.programChair4}">{SubmissionForm.programChair4}</div>
+	</div>
+</div>
+
+<div class="grid grid-cols-2 gap-6">
+	<div class="rounded-2xl bg-blue-50 p-4 data-check" data-test="{SubmissionForm.moderatorFirstName}">
+	    <div class="flex flex-row items-start gap-6">
+			<div class="w-1/3 text-center">
+				<div class="mb-2 font-bold text-sm">Moderator</div>
+				 <img src="{SubmissionForm.moderatorHeadshotUpload.MediaUrl}{SubmissionForm.moderatorHeadshotURL}" class="mx-auto object-cover rounded h-24 w-24 border-2 border-white"/>
+				<div>
+	                <p class="text-gray-800 text-xl font-medium">
+						{SubmissionForm.moderatorFirstName} {SubmissionForm.moderatorLastName}
+	                </p>
+	                <p class="text-gray-600 text-xs">
+						{SubmissionForm.moderatorTitle}
+	                </p>
+	                <p class="text-gray-400 text-xs">
+						{SubmissionForm.moderatorOrganization}
+	                </p>
+	            </div>
+			</div>
+			<div class="w-2/3">
+				{SubmissionForm.moderatorBio}
+			</div>
+	    </div>
+	</div>
+	<div class="rounded-2xl bg-gray-50 p-4 data-check" data-test="{SubmissionForm.speakers/speakerFirstName#0}">
+	    <div class="flex flex-row items-start gap-6">
+			<div class="w-1/3 text-center">
+				<div class="mb-2 font-bold text-sm">Speaker</div>
+				 <img src="{SubmissionForm.speakers/speakerHeadshotUpload.MediaUrl#0}{SubmissionForm.speakers/speakerHeadshotURL#0}" class="mx-auto object-cover rounded h-24 w-24 border-2 border-white"/>
+				<div>
+	                <p class="text-gray-800 text-xl font-medium">
+						{SubmissionForm.speakers/speakerFirstName#0} {SubmissionForm.speakers/speakerLastName#0}
+	                </p>
+	                <p class="text-gray-600 text-xs">
+						{SubmissionForm.speakers/speakerTitle#0}
+	                </p>
+	                <p class="text-gray-400 text-xs">
+						{SubmissionForm.speakers/speakerOrganization#0}
+	                </p>
+	            </div>
+			</div>
+			<div class="w-2/3">
+				{SubmissionForm.speakers/speakerBio#0}
+			</div>
+	    </div>
+	</div>
+	<div class="rounded-2xl bg-gray-50 p-4 data-check" data-test="{SubmissionForm.speakers/speakerFirstName#1}">
+		<div class="flex flex-row items-start gap-6">
+			<div class="w-1/3 text-center">
+				<div class="mb-2 font-bold text-sm">Speaker</div>
+				<img src="{SubmissionForm.speakers/speakerHeadshotUpload.MediaUrl#1}{SubmissionForm.speakers/speakerHeadshotURL#1}" class="mx-auto object-cover rounded h-24 w-24 border-2 border-white"/>
+				<div>
+					<p class="text-gray-800 text-xl font-medium">
+						{SubmissionForm.speakers/speakerFirstName#1} {SubmissionForm.speakers/speakerLastName#1}
+					</p>
+					<p class="text-gray-600 text-xs">
+						{SubmissionForm.speakers/speakerTitle#1}
+					</p>
+					<p class="text-gray-400 text-xs">
+						{SubmissionForm.speakers/speakerOrganization#1}
+					</p>
+				</div>
+			</div>
+			<div class="w-2/3">
+				{SubmissionForm.speakers/speakerBio#1}
+			</div>
+		</div>
+	</div>
+	<div class="rounded-2xl bg-gray-50 p-4 data-check" data-test="{SubmissionForm.speakers/speakerFirstName#2}">
+		<div class="flex flex-row items-start gap-6">
+			<div class="w-1/3 text-center">
+				<div class="mb-2 font-bold text-sm">Speaker</div>
+				<img src="{SubmissionForm.speakers/speakerHeadshotUpload.MediaUrl#2}{SubmissionForm.speakers/speakerHeadshotURL#2}" class="mx-auto object-cover rounded h-24 w-24 border-2 border-white"/>
+				<div>
+					<p class="text-gray-800 text-xl font-medium">
+						{SubmissionForm.speakers/speakerFirstName#2} {SubmissionForm.speakers/speakerLastName#2}
+					</p>
+					<p class="text-gray-600 text-xs">
+						{SubmissionForm.speakers/speakerTitle#2}
+					</p>
+					<p class="text-gray-400 text-xs">
+						{SubmissionForm.speakers/speakerOrganization#2}
+					</p>
+				</div>
+			</div>
+			<div class="w-2/3">
+				{SubmissionForm.speakers/speakerBio#2}
+			</div>
+		</div>
+	</div>
+	<div class="rounded-2xl bg-gray-50 p-4 data-check" data-test="{SubmissionForm.speakers/speakerFirstName#3}">
+		<div class="flex flex-row items-start gap-6">
+			<div class="w-1/3 text-center">
+				<div class="mb-2 font-bold text-sm">Speaker</div>
+				<img src="{SubmissionForm.speakers/speakerHeadshotUpload.MediaUrl#3}{SubmissionForm.speakers/speakerHeadshotURL#3}" class="mx-auto object-cover rounded h-24 w-24 border-2 border-white"/>
+				<div>
+					<p class="text-gray-800 text-xl font-medium">
+						{SubmissionForm.speakers/speakerFirstName#3} {SubmissionForm.speakers/speakerLastName#3}
+					</p>
+					<p class="text-gray-600 text-xs">
+						{SubmissionForm.speakers/speakerTitle#3}
+					</p>
+					<p class="text-gray-400 text-xs">
+						{SubmissionForm.speakers/speakerOrganization#3}
+					</p>
+				</div>
+			</div>
+			<div class="w-2/3">
+				{SubmissionForm.speakers/speakerBio#3}
+			</div>
+		</div>
+	</div>
+	<div class="rounded-2xl bg-gray-50 p-4 data-check" data-test="{SubmissionForm.speakers/speakerFirstName#4}">
+		<div class="flex flex-row items-start gap-6">
+			<div class="w-1/3 text-center">
+				<div class="mb-2 font-bold text-sm">Speaker</div>
+				<img src="{SubmissionForm.speakers/speakerHeadshotUpload.MediaUrl#4}{SubmissionForm.speakers/speakerHeadshotURL#4}" class="mx-auto object-cover rounded h-24 w-24 border-2 border-white"/>
+				<div>
+					<p class="text-gray-800 text-xl font-medium">
+						{SubmissionForm.speakers/speakerFirstName#4} {SubmissionForm.speakers/speakerLastName#4}
+					</p>
+					<p class="text-gray-600 text-xs">
+						{SubmissionForm.speakers/speakerTitle#4}
+					</p>
+					<p class="text-gray-400 text-xs">
+						{SubmissionForm.speakers/speakerOrganization#4}
+					</p>
+				</div>
+			</div>
+			<div class="w-2/3">
+				{SubmissionForm.speakers/speakerBio#4}
+			</div>
+		</div>
+	</div>
+	<div class="rounded-2xl bg-gray-50 p-4 data-check" data-test="{SubmissionForm.speakers/speakerFirstName#5}">
+		<div class="flex flex-row items-start gap-6">
+			<div class="w-1/3 text-center">
+				<div class="mb-2 font-bold text-sm">Speaker</div>
+				<img src="{SubmissionForm.speakers/speakerHeadshotUpload.MediaUrl#5}{SubmissionForm.speakers/speakerHeadshotURL#5}" class="mx-auto object-cover rounded h-24 w-24 border-2 border-white"/>
+				<div>
+					<p class="text-gray-800 text-xl font-medium">
+						{SubmissionForm.speakers/speakerFirstName#5} {SubmissionForm.speakers/speakerLastName#5}
+					</p>
+					<p class="text-gray-600 text-xs">
+						{SubmissionForm.speakers/speakerTitle#5}
+					</p>
+					<p class="text-gray-400 text-xs">
+						{SubmissionForm.speakers/speakerOrganization#5}
+					</p>
+				</div>
+			</div>
+			<div class="w-2/3">
+				{SubmissionForm.speakers/speakerBio#5}
+			</div>
+		</div>
+	</div>
+	<div class="rounded-2xl bg-gray-50 p-4 data-check" data-test="{SubmissionForm.speakers/speakerFirstName#6}">
+		<div class="flex flex-row items-start gap-6">
+			<div class="w-1/3 text-center">
+				<div class="mb-2 font-bold text-sm">Speaker</div>
+				<img src="{SubmissionForm.speakers/speakerHeadshotUpload.MediaUrl#6}{SubmissionForm.speakers/speakerHeadshotURL#6}" class="mx-auto object-cover rounded h-24 w-24 border-2 border-white"/>
+				<div>
+					<p class="text-gray-800 text-xl font-medium">
+						{SubmissionForm.speakers/speakerFirstName#6} {SubmissionForm.speakers/speakerLastName#6}
+					</p>
+					<p class="text-gray-600 text-xs">
+						{SubmissionForm.speakers/speakerTitle#6}
+					</p>
+					<p class="text-gray-400 text-xs">
+						{SubmissionForm.speakers/speakerOrganization#6}
+					</p>
+				</div>
+			</div>
+			<div class="w-2/3">
+				{SubmissionForm.speakers/speakerBio#6}
+			</div>
+		</div>
+	</div>
+	<div class="rounded-2xl bg-gray-50 p-4 data-check" data-test="{SubmissionForm.speakers/speakerFirstName#7}">
+		<div class="flex flex-row items-start gap-6">
+			<div class="w-1/3 text-center">
+				<div class="mb-2 font-bold text-sm">Speaker</div>
+				<img src="{SubmissionForm.speakers/speakerHeadshotUpload.MediaUrl#7}{SubmissionForm.speakers/speakerHeadshotURL#7}" class="mx-auto object-cover rounded h-24 w-24 border-2 border-white"/>
+				<div>
+					<p class="text-gray-800 text-xl font-medium">
+						{SubmissionForm.speakers/speakerFirstName#7} {SubmissionForm.speakers/speakerLastName#7}
+					</p>
+					<p class="text-gray-600 text-xs">
+						{SubmissionForm.speakers/speakerTitle#7}
+					</p>
+					<p class="text-gray-400 text-xs">
+						{SubmissionForm.speakers/speakerOrganization#7}
+					</p>
+				</div>
+			</div>
+			<div class="w-2/3">
+				{SubmissionForm.speakers/speakerBio#7}
+			</div>
+		</div>
+	</div>
+	<div class="rounded-2xl bg-gray-50 p-4 data-check" data-test="{SubmissionForm.speakers/speakerFirstName#8}">
+		<div class="flex flex-row items-start gap-6">
+			<div class="w-1/3 text-center">
+				<div class="mb-2 font-bold text-sm">Speaker</div>
+				<img src="{SubmissionForm.speakers/speakerHeadshotUpload.MediaUrl#8}{SubmissionForm.speakers/speakerHeadshotURL#8}" class="mx-auto object-cover rounded h-24 w-24 border-2 border-white"/>
+				<div>
+					<p class="text-gray-800 text-xl font-medium">
+						{SubmissionForm.speakers/speakerFirstName#8} {SubmissionForm.speakers/speakerLastName#8}
+					</p>
+					<p class="text-gray-600 text-xs">
+						{SubmissionForm.speakers/speakerTitle#8}
+					</p>
+					<p class="text-gray-400 text-xs">
+						{SubmissionForm.speakers/speakerOrganization#8}
+					</p>
+				</div>
+			</div>
+			<div class="w-2/3">
+				{SubmissionForm.speakers/speakerBio#8}
+			</div>
+		</div>
+	</div>
+	<div class="rounded-2xl bg-gray-50 p-4 data-check" data-test="{SubmissionForm.speakers/speakerFirstName#9}">
+		<div class="flex flex-row items-start gap-6">
+			<div class="w-1/3 text-center">
+				<div class="mb-2 font-bold text-sm">Speaker</div>
+				<img src="{SubmissionForm.speakers/speakerHeadshotUpload.MediaUrl#9}{SubmissionForm.speakers/speakerHeadshotURL#9}" class="mx-auto object-cover rounded h-24 w-24 border-2 border-white"/>
+				<div>
+					<p class="text-gray-800 text-xl font-medium">
+						{SubmissionForm.speakers/speakerFirstName#9} {SubmissionForm.speakers/speakerLastName#9}
+					</p>
+					<p class="text-gray-600 text-xs">
+						{SubmissionForm.speakers/speakerTitle#9}
+					</p>
+					<p class="text-gray-400 text-xs">
+						{SubmissionForm.speakers/speakerOrganization#9}
+					</p>
+				</div>
+			</div>
+			<div class="w-2/3">
+				{SubmissionForm.speakers/speakerBio#9}
+			</div>
+		</div>
+	</div>
+</div>

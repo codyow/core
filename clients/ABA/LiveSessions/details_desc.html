@@ -1,0 +1,132 @@
+<div class="custom-style-block" style="display: none;">
+<div class="title-block">
+<h2>Custom CSS</h2>
+
+<p>double-click to edit, do not edit in source</p></div>
+
+<div class="custom-css-wrapper">
+<style type="text/css">.wbox {
+    border: none;
+}
+
+.gallery_details{
+	margin-top:1em;
+}
+
+.gallery_mainContent {
+    width: 70%;
+}
+
+.gallery_info {
+    width: 28%;
+    border-left: 1px solid var(--color-light);
+    margin-left: 1%;
+    padding-left: 1%;
+}
+
+#applicationJudgementDescription>h4:first-of-type, #applicationJudgementDescription>h4:nth-of-type(2) {
+    display: none;
+}
+#applicationJudgementDescription>h3:first-of-type {
+    display: none;
+}
+#applicationJudgementDescription>p:first-of-type {
+    display: none;
+}
+
+.padded-display {
+    margin-top: 30px;
+    padding: 20px;
+    background: var(--color-light);
+}
+
+.btn_virtual_conference {
+    margin-bottom: 20px;
+}
+
+
+
+hr {
+    margin: 10px 0 !important;
+}
+
+.gallery_details .wbox .col-lg-4 {
+    padding: 1%;
+}
+
+.speaker-card {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid var(--color-light);
+    border-radius: 6px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.speaker-bio {
+    padding: 20px;
+    background: #ededed;
+    margin-right: 2%;
+    border-radius: 6px;
+}
+
+.author-card {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid var(--color-light);
+    border-radius: 6px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.author-bio {
+    padding: 20px;
+    background: #ededed;
+    margin-right: 2%;
+    border-radius: 6px;
+}
+</style>
+</div>
+</div>
+
+<div class="custom-script-block" style="display: none;">
+<div class="title-block">
+<h2>Custom JS</h2>
+
+<p>double-click to edit, do not edit in source</p></div>
+
+<div class="custom-js-wrapper">
+<script type="text/javascript">$(".virtualConference").first().addClass("btn-act btn-primary");
+$(".btn_virtual_conference").last().addClass("btn-act btn-success");</script>
+</div>
+</div>
+
+<p class="data-check" data-test="{SubmissionForm.remo}"><a class="btn-act btn-success" href="{SubmissionForm.remo}">Join Remo Session</a></p>
+<p class="data-check" data-test="{SubmissionForm.bindLink}"><a class="btn-act btn-success" href="{SubmissionForm.bindLink}">Join Session</a></p>
+
+<div class="text-base pb-2 data-check" data-test="{SubmissionForm.presentedBy}">
+<strong>Presented by:</strong> {SubmissionForm.presentedBy}
+</div>
+
+<div class="text-base pb-2 data-check" data-test="{SubmissionForm.coSponsors}">
+<strong>Co-Sponsoring Committees:</strong> {SubmissionForm.coSponsors}
+</div>
+
+<hr />
+
+<p><a class="btn-act btn-light" href="/a/gallery/rounds/1/schedule">⬅ Back to Sessions</a></p>
+
+<p class="data-compare" data-test="{ApplicationCategoryCode}" data-compare="cle">
+	<a class="btn-act btn-success" href="/a/organizations/main/submissions/create?solicitationId=3&field.category={ApplicationId}" target="_blank">
+		<span class="text-white">Enter CLE Code</span>
+	</a>
+</p>
+<p class="data-compare" data-test="{ApplicationCategoryCode}" data-compare="cle">
+	<a class="btn-act btn-primary mt-4" href="/a/organizations/main/submissions/create?solicitationId=3&amp;skipCheckIfUserHasSubmissions=True&amp;force=true&amp;field.category={ApplicationId}" target="_blank">
+		<span class="text-white">CLE Survey</span>
+	</a>
+</p>
+<div class="bg-gray-200 text-gray-700 text-center text-sm w-full p-2 mb-4 rounded data-check" data-test="{SubmissionForm.handoutOne.MediaUrl}">
+	<div class="mb-2 text-sm font-bold tracking-wide">Program Materials</div>
+	<a class="btn-act btn-primary data-check mb-2" data-test="{SubmissionForm.handoutOne.MediaUrl}" data-fancybox="handouts" data-src="{SubmissionForm.handoutOne.MediaUrl}" data-type="iframe" href="javascript:;">View Handout One</a>
+	<a class="btn-act btn-primary data-check mb-2" data-test="{SubmissionForm.handoutTwo.MediaUrl}" data-fancybox="handouts" data-src="{SubmissionForm.handoutTwo.MediaUrl}" data-type="iframe" href="javascript:;">View Handout One</a>
+	<a class="btn-act btn-primary data-check mb-2" data-test="{SubmissionForm.handoutThree.MediaUrl}" data-fancybox="handouts" data-src="{SubmissionForm.handoutThree.MediaUrl}" data-type="iframe" href="javascript:;">View Handout One</a>
+</div>
