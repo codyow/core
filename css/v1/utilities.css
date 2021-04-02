@@ -73,6 +73,10 @@ h6{
 }
 
 /* utility classes */
+.caps {
+	text-transform: capitalize;
+}
+
 .centered {
 	text-align: center !important;
 }
