@@ -600,6 +600,13 @@ h6{
 	border-right: 3px solid var(--color-secondary);
 }
 
+/* fixes flags in phone number fields */
+.core .formBuilder fieldset section div.view .phoneNumberInputContainer > .iti > input {
+	padding-right: 6px;
+	padding-left: 52px;
+	margin-left: 0;
+}
+
 /* readonly */
 .readOnly, .read-only,
 .readOnly div.view span.formValue,
