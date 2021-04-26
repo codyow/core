@@ -1,5 +1,10 @@
 // Chat Popup
-$( ".nav-menu > ul > li:last-child a" ).replaceWith( $( ".chat-pop" ) );
+const navParentId = $('#site-navigation').parent().attr('id');
+if (navParentId === 'no-last') {
+	$('.nav-menu li:contains(chat-placeholder)').replaceWith($('.chat-pop'));
+} else {
+	$(".nav-menu > ul > li:last-child a").replaceWith($(".chat-pop"));
+}
 
 // Replace My Account with Login When Logged Out
 if($('.nav-menu').text().indexOf("Log Out") === -1) {
