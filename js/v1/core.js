@@ -1,7 +1,7 @@
 // Chat Popup
 const navParentId = $('#site-navigation').parent().attr('id');
 if (navParentId === 'no-last') {
-	$('.nav-menu li:contains(chat-placeholder)').replaceWith($('.chat-pop'));
+	$('.nav-menu li:contains(chat-placeholder)').find('a').replaceWith($('.chat-pop'));
 } else {
 	$(".nav-menu > ul > li:last-child a").replaceWith($(".chat-pop"));
 }
