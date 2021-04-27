@@ -72,6 +72,10 @@ a.chat-pop:hover {
     margin-left:20px;
 }
 
+#no-last .nav-menu > ul > li:last-child {
+    margin-left: 0 !important;
+}
+
 ul.page-list li, ol.page-list li {
     font-size: var(--font-base-size) !important;
     margin: 5px 0 5px 50px !important;
