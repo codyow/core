@@ -49,6 +49,22 @@ a.btn-act:hover {
 	background-color: var(--color-white) !important;
 }
 /* Buttons */
+
+/* checkout button */
+button.checkout {
+	display: inline-block;
+	border-radius: 4px;
+	transition: all 0.5s;
+	text-align: center;
+	cursor: pointer;
+	letter-spacing: 1px;
+	line-height: 1em !important;
+	padding: .71429em 1.42857em;
+	background-color: var(--color-primary) !important;
+	border: 2px solid var(--color-primary) !important;
+	color: var(--color-white) !important;
+}
+
 button.btn-act {
 	display: block;
 	border-radius: 4px;
