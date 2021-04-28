@@ -94,6 +94,11 @@ h6{
 	text-align: center !important;
 }
 
+.centered img,
+img.centered {
+	margin: 0 auto;
+}
+
 .left {
 	text-align: left !important;
 }
