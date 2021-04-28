@@ -207,6 +207,39 @@ ul.scheduleDayList li a:hover {
     background: var(--color-light);
     padding: 20px;
 }
+
+.bg-danger {
+    background: var(--color-danger);
+}
+
+.bg-dark {
+    background: var(--color-dark);
+}
+
+.bg-light {
+    background: var(--color-light);
+}
+
+.bg-primary {
+    background: var(--color-primary);
+}
+
+.bg-secondary {
+    background: var(--color-secondary);
+}
+
+.bg-success {
+    background: var(--color-success);
+}
+
+.bg-warning {
+    background: var(--color-warning);
+}
+
+.bg-white {
+    background: var(--color-white);
+}
+
 .vc-footer{
 text-align:center;
 padding: 15px 0;

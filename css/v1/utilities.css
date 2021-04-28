@@ -23,15 +23,34 @@ body, a, p, span, li, td, div, label, blockquote, input, textarea, select, h1, h
 }
 
 /* Text */
+.text-danger {
+	color: var(--color-danger) !important;
+}
+
+.text-dark {
+	color: var(--color-dark) !important;
+}
+
+.text-light {
+	color: var(--color-light) !important;
+}
+
 .text-primary {
 	color: var(--color-primary) !important;
 }
+
 .text-secondary {
 	color: var(--color-secondary) !important;
 }
+
 .text-success {
 	color: var(--color-success) !important;
 }
+
+.text-warning {
+	color: var(--color-warning) !important;
+}
+
 .text-white {
 	color: var(--color-white) !important;
 }
