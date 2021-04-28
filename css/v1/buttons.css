@@ -51,6 +51,7 @@ a.btn-act:hover {
 /* Buttons */
 
 /* checkout button */
+.btn.filterByFavorites,
 button.checkout {
 	display: inline-block;
 	border-radius: 4px;

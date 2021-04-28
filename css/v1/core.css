@@ -382,6 +382,11 @@ button.search {
     border: 1px solid #eee;
     border-top: 3px solid var(--color-primary);
     margin-bottom: 20px;
+    text-align: center;
+}
+
+.gallery_right_panel.search_filter {
+    text-align: left;
 }
 
 .search_filter_content label {
