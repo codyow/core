@@ -376,6 +376,7 @@ button.search {
     width: 100%;
     background: var(--color-secondary);
     color: var(--color-white) !important;
+    padding: .71429em 1.42857em;
 }
 
 .gallery_right_panel {
