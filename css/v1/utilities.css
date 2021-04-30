@@ -162,6 +162,10 @@ img.centered {
 	font-weight: 800 !important;
 }
 
+.shadow {
+	box-shadow: -5px 11px 11px -9px rgba(0,0,0,0.75);
+}
+
 .muted {
 	opacity: 80% !important;
 }
