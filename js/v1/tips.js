@@ -11,7 +11,6 @@ $('.show-tips').waitUntilExists(function () {
 
 $(function() {
     var tipcount = $('.conference-note').length;
-    console.log(tipcount);
 	if (tipcount === 0) {
 	    $(".show-tips").hide();
 	}
