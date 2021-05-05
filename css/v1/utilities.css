@@ -5,33 +5,64 @@ body, a, p, span, li, td, div, label, blockquote, input, textarea, select, h1, h
 
 /* Homepage */
 
-.text-center{
-	text-align:center !important;
-}
 .home-content-main{
 	margin-bottom:20px;
 }
+
 .home-content-video{
 	margin-bottom:20px;
 }
+
 .home-sponsors{
 	margin-bottom:20px;
 }
+
 .home-content-main-text{
 	padding:20px;
 	background: var(--color-light);
 }
 
 /* Text */
+.text-center{
+	text-align:center !important;
+}
+
+.text-left {
+	text-align: left !important;
+}
+
+.text-right {
+	text-align: right !important;
+}
+
+.text-danger {
+	color: var(--color-danger) !important;
+}
+
+.text-dark {
+	color: var(--color-dark) !important;
+}
+
+.text-light {
+	color: var(--color-light) !important;
+}
+
 .text-primary {
 	color: var(--color-primary) !important;
 }
+
 .text-secondary {
 	color: var(--color-secondary) !important;
 }
+
 .text-success {
 	color: var(--color-success) !important;
 }
+
+.text-warning {
+	color: var(--color-warning) !important;
+}
+
 .text-white {
 	color: var(--color-white) !important;
 }
@@ -94,6 +125,11 @@ h6{
 	text-align: center !important;
 }
 
+.centered img,
+img.centered {
+	margin: 0 auto;
+}
+
 .left {
 	text-align: left !important;
 }
@@ -124,6 +160,10 @@ h6{
 
 .bolder {
 	font-weight: 800 !important;
+}
+
+.shadow {
+	box-shadow: -5px 11px 11px -9px rgba(0,0,0,0.75);
 }
 
 .muted {

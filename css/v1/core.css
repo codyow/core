@@ -72,6 +72,10 @@ a.chat-pop:hover {
     margin-left:20px;
 }
 
+#no-last .nav-menu > ul > li:last-child {
+    margin-left: 0 !important;
+}
+
 ul.page-list li, ol.page-list li {
     font-size: var(--font-base-size) !important;
     margin: 5px 0 5px 50px !important;
@@ -203,6 +207,39 @@ ul.scheduleDayList li a:hover {
     background: var(--color-light);
     padding: 20px;
 }
+
+.bg-danger {
+    background: var(--color-danger);
+}
+
+.bg-dark {
+    background: var(--color-dark);
+}
+
+.bg-light {
+    background: var(--color-light);
+}
+
+.bg-primary {
+    background: var(--color-primary);
+}
+
+.bg-secondary {
+    background: var(--color-secondary);
+}
+
+.bg-success {
+    background: var(--color-success);
+}
+
+.bg-warning {
+    background: var(--color-warning);
+}
+
+.bg-white {
+    background: var(--color-white);
+}
+
 .vc-footer{
 text-align:center;
 padding: 15px 0;
@@ -339,12 +376,18 @@ button.search {
     width: 100%;
     background: var(--color-secondary);
     color: var(--color-white) !important;
+    padding: .71429em 1.42857em;
 }
 
 .gallery_right_panel {
     border: 1px solid #eee;
     border-top: 3px solid var(--color-primary);
     margin-bottom: 20px;
+    text-align: center;
+}
+
+.gallery_right_panel.search_filter {
+    text-align: left;
 }
 
 .search_filter_content label {
