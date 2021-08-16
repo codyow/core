@@ -182,12 +182,12 @@ div.scheduleTimeSlot div.title {
 div.scheduleTimeSlot div.chevron {
     margin: 1.2em 20px !important;
 }
-.favorite {
+/*.favorite {
     background-image: url(https://cdn.filestackcontent.com/XS0zSAMzTKuYTGO9wJIh?star_selected.svg);
 }
 .not-favorite {
     background-image: url(https://cdn.filestackcontent.com/dlpIonLVSBKuVnJ3SR5V?star.svg);
-}
+}*/
 ul.scheduleDayList li.selected a {
     background: var(--color-primary);
     border: 1px solid var(--color-primary);
